@@ -1,6 +1,7 @@
 {
   "resources": [
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"spr_pancake","path":"sprites/spr_pancake/spr_pancake.yy",},"order":0,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
