@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Pancake","path":"sprites/Pancake/Pancake.yy",},"order":2,},
     {"id":{"name":"PlayerIdle","path":"sprites/PlayerIdle/PlayerIdle.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
