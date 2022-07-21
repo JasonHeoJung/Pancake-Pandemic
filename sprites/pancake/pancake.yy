@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_left": 20,
+  "bbox_right": 46,
+  "bbox_top": 19,
+  "bbox_bottom": 45,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b2ba6f89-ebf4-4800-bee6-92c13cbbe934","path":"sprites/Pancake/Pancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b2ba6f89-ebf4-4800-bee6-92c13cbbe934","path":"sprites/Pancake/Pancake.yy",},"LayerId":{"name":"e3820d6b-4817-43b4-9baa-98d2c5a0f5e0","path":"sprites/Pancake/Pancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Pancake","path":"sprites/Pancake/Pancake.yy",},"resourceVersion":"1.0","name":"b2ba6f89-ebf4-4800-bee6-92c13cbbe934","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"da11da89-7e62-42e5-848d-0e79578162dd","path":"sprites/Pancake/Pancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"da11da89-7e62-42e5-848d-0e79578162dd","path":"sprites/Pancake/Pancake.yy",},"LayerId":{"name":"e3820d6b-4817-43b4-9baa-98d2c5a0f5e0","path":"sprites/Pancake/Pancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Pancake","path":"sprites/Pancake/Pancake.yy",},"resourceVersion":"1.0","name":"da11da89-7e62-42e5-848d-0e79578162dd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Pancake","path":"sprites/Pancake/Pancake.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0d0ca0f5-d4dd-4556-9f5d-fb21b28f8ace","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2ba6f89-ebf4-4800-bee6-92c13cbbe934","path":"sprites/Pancake/Pancake.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"8938253f-7709-405f-b0d7-df1da5ed9455","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da11da89-7e62-42e5-848d-0e79578162dd","path":"sprites/Pancake/Pancake.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
