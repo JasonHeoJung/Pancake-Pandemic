@@ -1,22 +1,24 @@
 {
   "resources": [
-    {"id":{"name":"Pancake","path":"sprites/Pancake/Pancake.yy",},"order":2,},
-    {"id":{"name":"PlayerIdle","path":"sprites/PlayerIdle/PlayerIdle.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Spr_Pancake","path":"sprites/Spr_Pancake/Spr_Pancake.yy",},"order":2,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_NormalPancake","path":"objects/obj_NormalPancake/obj_NormalPancake.yy",},"order":1,},
+    {"id":{"name":"Spr_PlayerIdle","path":"sprites/Spr_PlayerIdle/Spr_PlayerIdle.yy",},"order":1,},
+    {"id":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
