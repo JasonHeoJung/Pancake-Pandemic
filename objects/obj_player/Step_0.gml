@@ -31,11 +31,11 @@ if (keyboard_check_released(vk_up) or keyboard_check_released(ord("W")) or keybo
 	vspeed = 0;
 }
 
-//stop player from moving if nothing is presesed
-//if (keyboard_check(vk_nokey)) {
-//	hspeed = 0;
-//	vspeed = 0;
-//}
+//shooting code
+if (mouse_check_button_pressed(mb_left)){
+	var bullet = instance_create_layer(x,y,"Instances", obj_bullet);
+	bullet.direction = point_direction(x,y,mouse_x,mouse_y)
+}
 
 
 
