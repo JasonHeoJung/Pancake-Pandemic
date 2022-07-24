@@ -1,12 +1,7 @@
+/// @description Initialize Pancake Hp
+// You can write your code in this editor
 
+normalPancakeHp = 5;
 
-
-sprite_index = spr_Pancake;
-
-target = obj_player;
-
-PancakeHp = 5;
-
-move_towards_point(target.x , target.y , 3);
 
 

@@ -1,5 +1,4 @@
-/// @description Insert description here
+/// @description Wave Statistics
 // You can write your code in this editor
 
-
-alarm[0] = 150;
+enemies = 5;

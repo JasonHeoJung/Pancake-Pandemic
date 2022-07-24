@@ -1,8 +1,8 @@
-/// @description Insert description here
+/// @description Hit by Bullet
 // You can write your code in this editor
 
-PancakeHp -= 1;
+normalPancakeHp -= 1;
 
-if (PancakeHp <= 0){
+if (normalPancakeHp <= 0){
 	instance_destroy();
 }
