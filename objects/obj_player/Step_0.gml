@@ -3,12 +3,12 @@
 
 //move player in direction of key pressed
 if (keyboard_check(vk_left) or keyboard_check(ord("A"))){ //and not(keyboard_check(vk_right) or keyboard_check(ord("D")))) {
-	image_xscale = -2.5;
+	image_xscale = -1;
 	hspeed = -5;
 }
 
 if (keyboard_check(vk_right) or keyboard_check(ord("D"))){ //and not(keyboard_check(vk_left) or keyboard_check(ord("A")))) {
-	image_xscale = 2.5;
+	image_xscale = 1;
 	hspeed = 5;
 }
 
@@ -36,7 +36,7 @@ if (mouse_check_button_pressed(mb_left)){
 	var bullet = instance_create_layer(x,y,"Instances", obj_bullet);
 	bullet.direction = point_direction(x,y,mouse_x,mouse_y)
 }
+ 
 
-
-
+ 
           

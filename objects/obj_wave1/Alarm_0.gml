@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-PlayerHp = 100;
+instance_create_layer(0, 500 , "Instances", obj_normalPancake);
 
