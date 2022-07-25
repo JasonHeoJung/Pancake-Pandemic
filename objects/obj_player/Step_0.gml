@@ -39,5 +39,11 @@ if (mouse_check_button_pressed(mb_left)){
 }
  
 
+//on hit flash
+if (flashAlpha > 0){
+	flashAlpha -= 0.1;
+}
+
+
  
           
