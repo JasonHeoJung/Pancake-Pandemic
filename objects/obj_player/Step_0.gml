@@ -32,10 +32,11 @@ if (keyboard_check_released(vk_up) or keyboard_check_released(ord("W")) or keybo
 }
 
 //shooting code
-if (mouse_check_button_pressed(mb_left)){
+if (mouse_check_button_pressed(mb_left) and alarm[1] == -1){
 	var bullet = instance_create_layer(x,y,"Instances", obj_bullet);
 	bullet.direction = point_direction(x,y,mouse_x,mouse_y);
 	bullet.image_angle = bullet.direction;
+	alarm[1] = 20;
 }
  
 
