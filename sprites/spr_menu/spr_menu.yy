@@ -68,7 +68,7 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"28da0dae-ca69-480a-84b3-2e837beb045c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
-    "left": 3,
+    "left": 2,
     "top": 2,
     "right": 2,
     "bottom": 2,
