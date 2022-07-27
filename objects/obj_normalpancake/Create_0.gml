@@ -3,7 +3,8 @@
 
 flashAlpha = 0;
 flashColor = c_red;
-normalPancakeHp = 5;
+normalPancakeHp = 10;
 
 
 
+ 
