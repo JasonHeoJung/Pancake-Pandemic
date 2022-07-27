@@ -1,4 +1,5 @@
-  /// @description 
+/// @description 
+// You can write your code in this editor
 
 draw_self();
 
@@ -13,6 +14,5 @@ if (flashAlpha > 0){
 }
 
 //hp
-draw_text(x,y+10,normalPancakeHp);
-
-
+draw_text(x,y+10,blueberryHp);
+ 

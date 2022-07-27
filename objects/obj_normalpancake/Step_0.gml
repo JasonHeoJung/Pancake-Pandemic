@@ -8,3 +8,4 @@ move_towards_point(target.x, target.y, 3);
 if (flashAlpha > 0){
 	flashAlpha -= 0.5;
 }
+ 
