@@ -36,12 +36,13 @@ if (mouse_check_button_pressed(mb_left) and alarm[1] == -1){
 	var bullet = instance_create_layer(x,y,"Instances", obj_bullet);
 	bullet.direction = point_direction(x,y,mouse_x,mouse_y);
 	bullet.image_angle = bullet.direction;
-	alarm[1] = 20;
+	alarm[1] = 30;
 }
  
 //animation code
 if (speed > 0){
 	sprite_index = spr_PlayerMoving;
+	image_speed = 0.5;
 }
 else {
 	sprite_index = spr_PlayerIdle;

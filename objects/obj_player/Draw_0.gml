@@ -2,9 +2,7 @@
 
 draw_self();
 
-//if (hspeed > 0){
-//	draw_sprite_ext(	)
-//flash
+
 if (flashAlpha > 0){
 	shader_set(sh_Flash);
 	

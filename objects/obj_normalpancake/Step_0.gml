@@ -8,7 +8,7 @@ if (distance_to_object(obj_player) > 10){
 }
 else{
 	speed = 0;
-} 
+}	
 
 
 //on hit flash

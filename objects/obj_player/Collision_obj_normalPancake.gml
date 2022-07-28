@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (alarm[0] == -1){
-	PlayerHp -= 0;	
+	PlayerHp -= 1;	
 	alarm[0] = 150;
 	flashAlpha = 1;
 }
