@@ -9,7 +9,7 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A"))){ //and not(keyboard_che
 
 if (keyboard_check(vk_right) or keyboard_check(ord("D"))){ //and not(keyboard_check(vk_left) or keyboard_check(ord("A")))) {
 	image_xscale = 1;
-	hspeed = 5;
+	hspeed = 5;	
 }
 
 
@@ -39,6 +39,13 @@ if (mouse_check_button_pressed(mb_left) and alarm[1] == -1){
 	alarm[1] = 20;
 }
  
+//animation code
+if (speed > 0){
+	sprite_index = spr_PlayerMoving;
+}
+else {
+	sprite_index = spr_PlayerIdle;
+}
 
 //on hit flash
 if (flashAlpha > 0){
