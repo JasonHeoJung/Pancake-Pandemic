@@ -1,4 +1,4 @@
-/// @description 
+ /// @description 
 // You can write your code in this editor
 
 //move towards player
@@ -6,7 +6,7 @@
 target = obj_player;
 
 if (point_distance(x,y, target.x,target.y) >= 400){
-	move_towards_point( target.x, target.y,3);
+	move_towards_point(target.x, target.y,3);
 }
 else
 {
