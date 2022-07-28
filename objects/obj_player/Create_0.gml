@@ -3,6 +3,5 @@
 
 flashAlpha = 0;
 flashColor = c_white;
-
 PlayerHp = 100;
 
