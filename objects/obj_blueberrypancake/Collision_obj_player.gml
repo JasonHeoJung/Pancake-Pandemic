@@ -1,4 +1,4 @@
-/// @description 
+/// @description  
 // You can write your code in this editor
 
 var dir = point_direction(target.x, target.y, x, y);
