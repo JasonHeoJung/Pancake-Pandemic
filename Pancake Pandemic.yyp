@@ -5,6 +5,7 @@
     {"id":{"name":"obj_view_controller","path":"objects/obj_view_controller/obj_view_controller.yy",},"order":6,},
     {"id":{"name":"obj_Wave1","path":"objects/obj_Wave1/obj_Wave1.yy",},"order":2,},
     {"id":{"name":"spr_circle","path":"sprites/spr_circle/spr_circle.yy",},"order":9,},
+    {"id":{"name":"spr_MenuBackground","path":"sprites/spr_MenuBackground/spr_MenuBackground.yy",},"order":11,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":8,},
     {"id":{"name":"sh_Flash","path":"shaders/sh_Flash/sh_Flash.yy",},"order":0,},
     {"id":{"name":"spr_Pancake","path":"sprites/spr_Pancake/spr_Pancake.yy",},"order":2,},
@@ -38,8 +39,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
