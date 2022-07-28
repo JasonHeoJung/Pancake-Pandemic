@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_BlueberryPancake",
-    "path": "sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",
+    "name": "spr_background",
+    "path": "sprites/spr_background/spr_background.yy",
   },
   "solid": false,
   "visible": true,
