@@ -3,7 +3,7 @@
     "name": "spr_BlueberryPancake",
     "path": "sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
