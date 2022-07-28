@@ -1,5 +1,4 @@
 
-
 accept_key = mouse_check_button_pressed(mb_left);
 
 textbox_x = camera_get_view_x(view_camera[0]);
