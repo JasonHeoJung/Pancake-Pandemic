@@ -3,6 +3,6 @@
 
 otherpancake = obj_normalPancake;
 var dir = point_direction(otherpancake.x, otherpancake.y, x, y);
-x += lengthdir_x(10, dir);
-y += lengthdir_x(10, dir);
+x += lengthdir_x(2, dir);
+y += lengthdir_x(2, dir);
    

@@ -4,4 +4,3 @@
 var dir = point_direction(target.x, target.y, x, y);
 x += lengthdir_x(10, dir);
 y += lengthdir_x(10, dir);
-speed = 0;
