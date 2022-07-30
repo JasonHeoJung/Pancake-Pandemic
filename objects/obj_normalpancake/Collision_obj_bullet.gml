@@ -1,5 +1,3 @@
-/// @description Hit by Bullet
-// You can write your code in this editor
 
 normalPancakeHp -= 1;
 flashAlpha = 1;

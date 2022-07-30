@@ -11,7 +11,10 @@
     "path": "sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",
   },
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_parentpancake",
+    "path": "objects/obj_parentpancake/obj_parentpancake.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

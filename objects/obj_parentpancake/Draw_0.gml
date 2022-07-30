@@ -1,5 +1,3 @@
-  /// @description 
-
 draw_self();
 
 //flash
@@ -13,6 +11,4 @@ if (flashAlpha > 0){
 }
 
 //hp
-draw_text(x,y+10,normalPancakeHp);
-
-
+draw_text(x,y+10,PancakeHp);
