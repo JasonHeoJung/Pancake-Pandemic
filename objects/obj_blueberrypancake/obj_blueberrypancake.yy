@@ -1,12 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_background",
-    "path": "sprites/spr_background/spr_background.yy",
+    "name": "spr_BlueberryPancake",
+    "path": "sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_BlueberryPancake",
+    "path": "sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

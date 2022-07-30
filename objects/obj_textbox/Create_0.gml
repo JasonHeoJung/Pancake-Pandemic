@@ -18,9 +18,12 @@ page = 0;
 page_number = 0;
 text[0] = "??? : Hey, you there!";
 text[1] = "Ben : Huh?";
+text[2] = "??? : What are you looking around for? You're the only other person here… ";
+text[3] = "Ben : Wha..?";
+text[4] = "Gun? – I'm the gun in the middle of the living room…";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
-text_spd = 0.5;
+text_spd = 0.2;
 
 setup = false;
 
