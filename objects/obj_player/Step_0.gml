@@ -46,7 +46,6 @@ if (speed > 0){
 }
 else {
 	sprite_index = spr_PlayerIdle;
-	image_speed = 0.75;
 }
 
 //on hit flash
