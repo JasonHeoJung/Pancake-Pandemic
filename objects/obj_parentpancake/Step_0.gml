@@ -3,6 +3,5 @@ if (flashAlpha > 0){
 }
 
 
-
-
+ 
 

@@ -1,4 +1,4 @@
 /// @description 
 // You can write your code in this editor
 
-speed = 8;
+speed = 7;

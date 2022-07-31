@@ -63,7 +63,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 82,
-    "yorigin": 95,
+    "yorigin": 93,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_PlayerIdle","path":"sprites/spr_PlayerIdle/spr_PlayerIdle.yy",},

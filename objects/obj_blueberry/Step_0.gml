@@ -1,4 +1,4 @@
 /// @description 
 // You can write your code in this editor
 
-image_angle += 10;
+image_angle += 15;

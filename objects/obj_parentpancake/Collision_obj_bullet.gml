@@ -1,4 +1,4 @@
-PancakeHp -= 1;
+PancakeHp -= global.playerbulletdmg;
 flashAlpha = 1;
 
 if (PancakeHp <= 0){
