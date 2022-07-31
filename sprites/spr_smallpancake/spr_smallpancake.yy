@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 128,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,24 +24,28 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3644f61c-c3dc-422b-b75c-84f95731eb28","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3644f61c-c3dc-422b-b75c-84f95731eb28","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"LayerId":{"name":"da8d86c5-5ce0-4c83-a195-d8394c4fc0a0","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_SmallPancake","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","name":"3644f61c-c3dc-422b-b75c-84f95731eb28","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"546d56ba-1be7-48ff-9de0-e32f8579217a","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"546d56ba-1be7-48ff-9de0-e32f8579217a","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"LayerId":{"name":"da8d86c5-5ce0-4c83-a195-d8394c4fc0a0","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SmallPancake","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","name":"546d56ba-1be7-48ff-9de0-e32f8579217a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1ebad48a-03eb-4cc9-9abe-c744c30b000f","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1ebad48a-03eb-4cc9-9abe-c744c30b000f","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"LayerId":{"name":"da8d86c5-5ce0-4c83-a195-d8394c4fc0a0","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_SmallPancake","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","name":"1ebad48a-03eb-4cc9-9abe-c744c30b000f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_SmallPancake","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1d09da51-6f6f-4e1a-89a8-1ead90fdc72e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3644f61c-c3dc-422b-b75c-84f95731eb28","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"50249c81-ed08-4c4c-a04a-5bf791470be3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"546d56ba-1be7-48ff-9de0-e32f8579217a","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"64d10abf-e6d5-4c8b-98af-54c97f208515","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ebad48a-03eb-4cc9-9abe-c744c30b000f","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +58,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
-    "yorigin": 50,
+    "xorigin": 64,
+    "yorigin": 100,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_SmallPancake","path":"sprites/spr_SmallPancake/spr_SmallPancake.yy",},

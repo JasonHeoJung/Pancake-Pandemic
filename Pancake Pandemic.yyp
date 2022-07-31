@@ -29,6 +29,7 @@
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"order":12,},
     {"id":{"name":"obj_blueberry","path":"objects/obj_blueberry/obj_blueberry.yy",},"order":5,},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":5,},
+    {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},"order":15,},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":8,},
     {"id":{"name":"spr_syrup","path":"sprites/spr_syrup/spr_syrup.yy",},"order":3,},
     {"id":{"name":"spr_BlueberryPancake","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"order":6,},
@@ -77,7 +78,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.1.26",
+    "IDEVersion": "2022.6.0.23",
   },
   "resourceVersion": "1.5",
   "name": "Pancake Pandemic",
