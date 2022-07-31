@@ -10,14 +10,14 @@ function DropItems(argument0, argument1, argument2){
 		var _angle = random(360);
 		for (var i = 0; i < _items; i++)
 		{
-			with (instance_create_layer(argument0, argument1, "ItemDrops", argument2[i]))
+			with (instance_create_layer(argument0, argument1, "Instances", argument2[i]))
 			{
-				direction = _angle;
-				spd = 0.75 + (_items * 0.1) + random(0.1);
+			direction = _angle;
+			spd = 0.75 + (_items * 0.1) + random(0.1);
 			}
-			_angle += _anglePerItem;
+			_angle += _anglePerItem;	
 		}
 	}
-	else instance_create_layer(argument0, argument1, "ItemDrops", argument2[0]);
+	else instance_create_layer(argument0, argument1, "Instances", argument2[0]);
 
 }

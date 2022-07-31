@@ -1,6 +1,7 @@
-/// @description
-// You can write your code in this editor
+baseHp = 5;
 
-blueberryHp = 5;
-flashAlpha = 0;
-flashColor = c_red;
+// Inherit the parent event
+event_inherited();
+
+
+entityDropList = [obj_butter, obj_butter, obj_butter];
