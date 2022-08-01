@@ -1,6 +1,6 @@
 global.playerhealth = 100;
 global.playerbulletdmg = 1;
-global.playerfirerate = 20;
+global.playerfirerate = 0;
 global.playerspeed = 5;
 global.buttercount = 0;
 global.enemyhealth = 1;
