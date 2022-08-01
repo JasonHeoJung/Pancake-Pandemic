@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function DropItems(argument0, argument1, argument2){
 	
 	var _items = array_length_1d(argument2);

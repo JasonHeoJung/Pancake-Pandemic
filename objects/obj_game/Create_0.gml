@@ -5,7 +5,9 @@ global.playerspeed = 5;
 global.buttercount = 0;
 global.enemyhealth = 1;
 global.enemyspeed = 1;
-
+global.wavecount = 1;
+global.enemylist = [obj_normalPancake];
+global.enemydropcount = 3;
 
 
 

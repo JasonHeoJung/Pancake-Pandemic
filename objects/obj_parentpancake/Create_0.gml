@@ -5,5 +5,7 @@ if (is_undefined(baseHp)){
 	baseHp = 0;
 }
 PancakeHp = baseHp * global.enemyhealth;
-entityDropList = -1;
-_angle = point_direction(x, y, target.x, target.y);
+entityDropList = [];
+for (var i = 0; i < global.enemydropcount; i++){
+	array_push(entityDropList,obj_butter);
+}

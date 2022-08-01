@@ -1,5 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-move_towards_point(target.x, target.y, 4);
+if (alarm[0] == -1){
+	move_towards_point(target.x, target.y, 4);
+}
+
 
