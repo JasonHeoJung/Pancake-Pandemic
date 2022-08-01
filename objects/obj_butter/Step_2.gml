@@ -7,12 +7,6 @@
 		direction = point_direction(x,y,_px-30,_py-30);
 		spd = min(spd,10);
 		if (_dist < 15){ 
-			if (collectScriptArg != -1){
-				script_execute(collectScript,collectScriptArg);
-			}
-			else{
-				if (collectScript != -1) script_execute(collectScript);
-			}
 			instance_destroy();
 		}	
 	}
