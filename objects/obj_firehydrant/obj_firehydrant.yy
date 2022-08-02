@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_obstacle",
+    "path": "objects/obj_obstacle/obj_obstacle.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,7 +32,7 @@
     "path": "folders/Objects/Obstacles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object19",
+  "name": "obj_firehydrant",
   "tags": [],
   "resourceType": "GMObject",
 }

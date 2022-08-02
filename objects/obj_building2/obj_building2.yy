@@ -1,14 +1,17 @@
 {
   "spriteId": {
-    "name": "Car",
-    "path": "sprites/Car/Car.yy",
+    "name": "Building2",
+    "path": "sprites/Building2/Building2.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_obstacle",
+    "path": "objects/obj_obstacle/obj_obstacle.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,9 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +32,7 @@
     "path": "folders/Objects/Obstacles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object18",
+  "name": "obj_building2",
   "tags": [],
   "resourceType": "GMObject",
 }
