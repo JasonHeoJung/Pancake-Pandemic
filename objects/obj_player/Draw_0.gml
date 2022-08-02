@@ -1,5 +1,7 @@
 /// @description 
 
+
+
 draw_self();
 
 
@@ -14,6 +16,7 @@ if (flashAlpha > 0){
 
 //hp
 draw_text(x,y,global.playerhealth);
+
 
 
 

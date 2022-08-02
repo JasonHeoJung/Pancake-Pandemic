@@ -52,5 +52,6 @@ if (flashAlpha > 0){
 }
 
 if (global.playerhealth <= 0){
-	instance_destroy();
+	room_restart();
+	room_goto(rm_gameover);
 } 
