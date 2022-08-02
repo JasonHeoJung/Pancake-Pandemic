@@ -465,8 +465,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Menu System",
-    "path": "folders/Menu System.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_main_font",

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Main Game Objects",
+    "path": "folders/Objects/Main Game Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Wave",
