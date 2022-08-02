@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Projectiles&Items",
+    "path": "folders/Objects/Projectiles&Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_butter",
