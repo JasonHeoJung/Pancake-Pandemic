@@ -7,6 +7,17 @@ else{
 	image_xscale = -1;
 }
 
+if (PancakeHp <= 0 && alarm[11] == -1){
+	sprite_index = spr_death;
+	alarm[11] = 50;
+	dead = true;
+}
+
+if (dead == true){
+	speed = 0;
+	obj_parentpancake.damage = 0;
+}
+
 
 
 

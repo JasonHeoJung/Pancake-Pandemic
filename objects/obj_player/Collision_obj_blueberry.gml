@@ -1,11 +1,6 @@
-
-
-if (alarm[0] == -1){
-	PlayerHp -= 20;	
+if (global.playerinvincible == false){
+	global.playerhealth -= global.enemydmg * 5;	
 	alarm[0] = 50;
 	flashAlpha = 1;
+	global.playerinvincible = true;
 }
-
-if (PlayerHp <= 0){
-	instance_destroy();
-} 

@@ -8,6 +8,8 @@ global.enemyspeed = 1;
 global.wavecount = 1;
 global.enemylist = [obj_normalPancake];
 global.enemydropcount = 3;
+global.playerinvincible = false;
+global.enemydmg = 1;
 
 
 

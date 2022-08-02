@@ -1,4 +1,4 @@
- if (instance_exists(obj_player)){
+if (instance_exists(obj_player)){
 	var _px = obj_player.x;
 	var _py = obj_player.y;
 	var _dist = point_distance(x,y,_px-30,_py-30);
@@ -12,7 +12,7 @@
 	}
 } 
 
-fric = 0.03;
+fric = 0.06;
 x += lengthdir_x(spd, direction);
 y += lengthdir_y(spd, direction);
 spd = max(spd-fric, 0)

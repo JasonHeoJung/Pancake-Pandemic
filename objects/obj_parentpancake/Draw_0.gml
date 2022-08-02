@@ -11,4 +11,4 @@ if (flashAlpha > 0){
 }
 
 //hp
-draw_text(x,y+25,PancakeHp);
+draw_text(x,y,PancakeHp);

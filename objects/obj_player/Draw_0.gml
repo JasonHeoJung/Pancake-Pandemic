@@ -13,7 +13,7 @@ if (flashAlpha > 0){
 }
 
 //hp
-draw_text(x,y,PlayerHp);
+draw_text(x,y,global.playerhealth);
 
 
 
