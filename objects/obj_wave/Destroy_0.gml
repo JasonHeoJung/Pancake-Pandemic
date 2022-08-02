@@ -8,3 +8,4 @@ instance_create_layer(midx+100, midy, "Instances", obj_PowerUp);
 
 
 
+ 
