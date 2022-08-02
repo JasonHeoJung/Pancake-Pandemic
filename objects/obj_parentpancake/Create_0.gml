@@ -9,3 +9,5 @@ entityDropList = [];
 for (var i = 0; i < global.enemydropcount; i++){
 	array_push(entityDropList,obj_butter);
 }
+
+dead = false;

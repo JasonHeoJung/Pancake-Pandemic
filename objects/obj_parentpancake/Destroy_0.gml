@@ -1,5 +1,5 @@
 if (entityDropList != -1){
-	DropItems(x, y, entityDropList);
+	DropItems(x-30, y-30, entityDropList);
 }
 
 

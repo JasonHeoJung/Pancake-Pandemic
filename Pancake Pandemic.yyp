@@ -19,7 +19,6 @@
     {"id":{"name":"obj_blueberryPancake","path":"objects/obj_blueberryPancake/obj_blueberryPancake.yy",},"order":4,},
     {"id":{"name":"spr_dialog_font","path":"sprites/spr_dialog_font/spr_dialog_font.yy",},"order":1,},
     {"id":{"name":"spr_mapbigger","path":"sprites/spr_mapbigger/spr_mapbigger.yy",},"order":1,},
-    {"id":{"name":"scr_collectButter","path":"scripts/scr_collectButter/scr_collectButter.yy",},"order":1,},
     {"id":{"name":"obj_ShortPancake","path":"objects/obj_ShortPancake/obj_ShortPancake.yy",},"order":11,},
     {"id":{"name":"scr_dropitems","path":"scripts/scr_dropitems/scr_dropitems.yy",},"order":0,},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},"order":0,},
@@ -54,8 +53,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
+    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -87,7 +86,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.0.23",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "Pancake Pandemic",
