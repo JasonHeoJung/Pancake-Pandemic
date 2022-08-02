@@ -15,6 +15,7 @@ if (PancakeHp <= 0 && alarm[11] == -1){
 
 if (dead == true){
 	speed = 0;
+	obj_parentpancake.damage = 0;
 }
 
 

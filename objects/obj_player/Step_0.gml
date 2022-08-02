@@ -1,5 +1,3 @@
- /// @description Movement and Shooting of Player
-// You can write your code in this editor
 
 //move player in direction of key pressed
 if (keyboard_check(vk_left) or keyboard_check(ord("A"))){ //and not(keyboard_check(vk_right) or keyboard_check(ord("D")))) {
@@ -53,4 +51,7 @@ if (flashAlpha > 0){
 	flashAlpha -= 0.1;
 }
 
+if (global.playerhealth <= 0){
+	instance_destroy();
+} 
        
