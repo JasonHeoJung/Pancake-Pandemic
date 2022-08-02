@@ -1,6 +1,0 @@
-global.buttercount += 1;
-
-
-
-
-
