@@ -33,15 +33,14 @@ if accept_key {
 				//window size
 				case 0:
 					break;
-				//brightness
+				//controls
 				case 1:
 					break;
-				//controls
+				//back
 				case 2:
-					break;
+					menu_level = 0;
 				//back
 				case 3:
-				menu_level = 0;
 					break;
 			}
 	}
