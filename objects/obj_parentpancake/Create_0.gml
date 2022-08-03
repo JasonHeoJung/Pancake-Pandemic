@@ -1,20 +1,9 @@
 flashAlpha = 0;
 flashColor = c_white;
 target = obj_player;
-baseHp = undefined;
-basedmg = undefined;
-
-if (is_undefined(baseHp)){
-	baseHp = 1;
-}
-
 PancakeHp = baseHp * global.enemyhealth;
-
-if (is_undefined(basedmg)){
-	basedmg = 1;
-}
-
 obj_parentpancake.damage = basedmg * global.enemydmg;
+obj_parentpancake.speed = basespeed * global.enemyspeed;
 
 entityDropList = [];
 for (var i = 0; i < global.enemydropcount; i++){
