@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_PowerUp",
+    "path": "sprites/spr_PowerUp/spr_PowerUp.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Powerups",
-    "path": "folders/Objects/Powerups.yy",
+    "name": "Projectiles&Items",
+    "path": "folders/Objects/Projectiles&Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_PowerUp",

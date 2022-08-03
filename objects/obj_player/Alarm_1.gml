@@ -1,5 +1,4 @@
-/// @description fire rate
-
+//@description fire rate
 
 
 
