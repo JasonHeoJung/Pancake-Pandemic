@@ -28,7 +28,7 @@
     "path": "folders/Objects/Powerups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_PowerUp",
+  "name": "obj_DmgUp",
   "tags": [],
   "resourceType": "GMObject",
 }

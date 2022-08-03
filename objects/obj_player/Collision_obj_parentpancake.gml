@@ -4,9 +4,12 @@ if (global.playerinvincible == false){
 	if (global.playerhealth != prevh){
 		global.playerinvincible = true;	
 	}
-	alarm[0] = 50;
+	else {
+		alarm[3] = alarm[3] = 100;
+	}
+	alarm[0] = global.playerinvitime;
 	flashAlpha = 1;
 }
 
 
-
+ 

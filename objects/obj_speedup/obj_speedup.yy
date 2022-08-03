@@ -18,9 +18,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +26,7 @@
     "path": "folders/Objects/Powerups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_PowerUp",
+  "name": "obj_SpeedUp",
   "tags": [],
   "resourceType": "GMObject",
 }
