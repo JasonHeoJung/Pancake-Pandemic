@@ -8,9 +8,9 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 299,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 168,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,6 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"b976dd78-bdbb-4c53-a5ac-e408b341af03","path":"sprites/story3/story3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"b976dd78-bdbb-4c53-a5ac-e408b341af03","path":"sprites/story3/story3.yy",},"LayerId":{"name":"603f417d-ebe2-46ea-b307-8f0c64816a98","path":"sprites/story3/story3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b976dd78-bdbb-4c53-a5ac-e408b341af03","path":"sprites/story3/story3.yy",},"LayerId":{"name":"Copied Layer 1","path":"sprites/story3/story3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b976dd78-bdbb-4c53-a5ac-e408b341af03","path":"sprites/story3/story3.yy",},"LayerId":{"name":"Copied Layer 2","path":"sprites/story3/story3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b976dd78-bdbb-4c53-a5ac-e408b341af03","path":"sprites/story3/story3.yy",},"LayerId":{"name":"Copied Layer 3","path":"sprites/story3/story3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"story3","path":"sprites/story3/story3.yy",},"resourceVersion":"1.0","name":"b976dd78-bdbb-4c53-a5ac-e408b341af03","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,6 +69,9 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"603f417d-ebe2-46ea-b307-8f0c64816a98","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"Copied Layer 1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"Copied Layer 2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"Copied Layer 3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
