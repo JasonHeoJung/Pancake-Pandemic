@@ -5,5 +5,5 @@ knockback = false;
 playermaxhp = 100;
 healthbar_width = 100;
 healthbar_height = 12;
-healthbar_x = (320/2) - (healthbar_width/2);
-healthbar_y = ystart - 100;
+healthbar_x = obj_player.x
+healthbar_y = obj_player.y
