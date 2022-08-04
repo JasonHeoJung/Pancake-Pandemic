@@ -17,6 +17,7 @@ global.enemydropcount = 3;
 global.enemydmg = 1;
 global.poweruplist = [obj_DmgUp, obj_HealthUp, obj_FireRateUp, obj_InvinTime, obj_Regenrate, obj_SpeedUp, obj_SpeedUp];
 
-
+window_set_cursor(cr_none);
+cursor_sprite = spr_cursor;
 
 
