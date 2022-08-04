@@ -1,11 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_pu_Health",
+    "path": "sprites/spr_pu_Health/spr_pu_Health.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_PowerUp",
+    "path": "objects/obj_PowerUp/obj_PowerUp.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

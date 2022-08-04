@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":0,},
     {"id":{"name":"spr_pu_TimeTillHealthRegen","path":"sprites/spr_pu_TimeTillHealthRegen/spr_pu_TimeTillHealthRegen.yy",},"order":6,},
+    {"id":{"name":"obj_MoreButter","path":"objects/obj_MoreButter/obj_MoreButter.yy",},"order":8,},
     {"id":{"name":"spr_blueberrybullet","path":"sprites/spr_blueberrybullet/spr_blueberrybullet.yy",},"order":0,},
     {"id":{"name":"spr_pu_InvinTime","path":"sprites/spr_pu_InvinTime/spr_pu_InvinTime.yy",},"order":4,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":3,},
@@ -37,6 +38,7 @@
     {"id":{"name":"obj_SpeedUp","path":"objects/obj_SpeedUp/obj_SpeedUp.yy",},"order":4,},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},"order":2,},
     {"id":{"name":"obj_ShortPancake","path":"objects/obj_ShortPancake/obj_ShortPancake.yy",},"order":11,},
+    {"id":{"name":"spr_pu_moreDrops","path":"sprites/spr_pu_moreDrops/spr_pu_moreDrops.yy",},"order":7,},
     {"id":{"name":"scr_dropitems","path":"scripts/scr_dropitems/scr_dropitems.yy",},"order":0,},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},"order":7,},
     {"id":{"name":"rm_Story","path":"rooms/rm_Story/rm_Story.yy",},"order":2,},
