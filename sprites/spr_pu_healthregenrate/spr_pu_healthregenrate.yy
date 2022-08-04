@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2217f66c-2169-48a2-bcf8-c34dea0a1d34","path":"sprites/spr_pu_HealthRegenRate/spr_pu_HealthRegenRate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"2217f66c-2169-48a2-bcf8-c34dea0a1d34","path":"sprites/spr_pu_HealthRegenRate/spr_pu_HealthRegenRate.yy",},"LayerId":{"name":"f3c4219c-b228-462d-8a25-fc82083cd795","path":"sprites/spr_pu_HealthRegenRate/spr_pu_HealthRegenRate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2217f66c-2169-48a2-bcf8-c34dea0a1d34","path":"sprites/spr_pu_HealthRegenRate/spr_pu_HealthRegenRate.yy",},"LayerId":{"name":"4d2e7dee-2563-4b96-8083-8fe0935e8f86","path":"sprites/spr_pu_HealthRegenRate/spr_pu_HealthRegenRate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_pu_HealthRegenRate","path":"sprites/spr_pu_HealthRegenRate/spr_pu_HealthRegenRate.yy",},"resourceVersion":"1.0","name":"2217f66c-2169-48a2-bcf8-c34dea0a1d34","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,6 +67,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f3c4219c-b228-462d-8a25-fc82083cd795","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"4d2e7dee-2563-4b96-8083-8fe0935e8f86","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
