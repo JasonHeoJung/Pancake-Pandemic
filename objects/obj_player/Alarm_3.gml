@@ -5,5 +5,5 @@ if (global.playerhealth < global.playermaxhealth){
 		global.playerhealth = global.playermaxhealth;
 	}
 }
-alarm[3] = 20;
+alarm[3] = 50; 
 

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pu_Dmg",
-    "path": "sprites/spr_pu_Dmg/spr_pu_Dmg.yy",
+    "name": "spr_pu_moreDrops",
+    "path": "sprites/spr_pu_moreDrops/spr_pu_moreDrops.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Powerups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_DmgUp",
+  "name": "obj_MoreButter",
   "tags": [],
   "resourceType": "GMObject",
 }

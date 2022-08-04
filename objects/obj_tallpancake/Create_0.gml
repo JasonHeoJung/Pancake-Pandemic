@@ -1,5 +1,7 @@
 baseHp = 5;
 basedmg = 10;
+basespeed = 3;
+
 // Inherit the parent event
 event_inherited();
 
