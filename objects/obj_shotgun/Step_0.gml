@@ -2,7 +2,7 @@
 event_inherited();
 
 // Shotgun Bullets
-if (mouse_check_button_pressed(mb_left) and alarm[0] == -1){
+if (mouse_check_button(mb_left) and alarm[0] == -1){
 	//angle between pellets
 	var anglebetweenpellets = self.pelletspread/self.pelletcount;
 	//inital pellet angle 

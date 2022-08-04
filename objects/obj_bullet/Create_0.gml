@@ -1,13 +1,10 @@
 /// @description Initialize the stat of bullet
 // You can write your code in this editor
-
+weapon = global.playerweapon;
 speed = 10;
 originx = x;
 originy = y;
-
-if (global.playerweapon == obj_Shotgun){
-	image_xscale = 0.3;
-	image_yscale = 0.3;
-}
+image_xscale = weapon.bulletsize;
+image_yscale = weapon.bulletsize;
 
             
