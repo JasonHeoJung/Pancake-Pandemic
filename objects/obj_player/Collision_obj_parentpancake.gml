@@ -5,7 +5,7 @@ if (global.playerinvincible == false){
 		global.playerinvincible = true;	
 	}
 	else {
-		alarm[3] = alarm[3] = 100;
+		alarm[3] = 20;
 	}
 	alarm[0] = global.playerinvitime;
 	flashAlpha = 1;
