@@ -1,12 +1,9 @@
 /// @description distance
-
-weapon = global.playerweapon;
-if (point_distance(x,y,originx,originy) >= weapon.bulletdistance){
+if (point_distance(x,y,originx,originy) >= weapon.bulletdistance or speed == 0){
 	instance_destroy();
 }
 
-fric = 0.05;
-speed -= fric;
+speed -= weapon.bulletfric;
 
 
 

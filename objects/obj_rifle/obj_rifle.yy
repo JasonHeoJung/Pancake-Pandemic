@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Pistol",
-    "path": "sprites/spr_Pistol/spr_Pistol.yy",
+    "name": "spr_Rifle",
+    "path": "sprites/spr_Rifle/spr_Rifle.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Pistol",
+  "name": "obj_Rifle",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Pistol",
-    "path": "sprites/spr_Pistol/spr_Pistol.yy",
+    "name": "spr_Shotgun",
+    "path": "sprites/spr_Shotgun/spr_Shotgun.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Pistol",
+  "name": "obj_Shotgun",
   "tags": [],
   "resourceType": "GMObject",
 }
