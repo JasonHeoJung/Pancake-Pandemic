@@ -6,7 +6,7 @@ view_visible[0] = true;
 view_wport[0] = display_get_width();
 view_hport[0] = display_get_height();
 
-window_set_size(1280, 720)
+window_set_size(1920, 1080)
 
 global.var_aspect_ratio_x = abs((var_room_startig_wport/view_wport[0]) - 1)
 global.var_aspect_ratio_y = abs((var_room_startig_hport/view_hport[0]) - 1)

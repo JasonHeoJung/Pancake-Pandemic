@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Textboxes",
-    "path": "folders/Sprites/Textboxes.yy",
+    "name": "GUI&HUD",
+    "path": "folders/Sprites/GUI&HUD.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_menu",

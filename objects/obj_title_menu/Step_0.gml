@@ -30,7 +30,7 @@ if accept_key {
 		//settings
 		case 1:
 			switch(pos){
-				//window size
+				//Audio
 				case 0:
 					break;
 				//controls
@@ -39,8 +39,6 @@ if accept_key {
 				//back
 				case 2:
 					menu_level = 0;
-				//back
-				case 3:
 					break;
 			}
 	}

@@ -465,8 +465,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Textboxes",
+    "path": "folders/Sprites/Textboxes.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_main_font",
