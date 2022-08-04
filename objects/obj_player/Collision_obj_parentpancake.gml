@@ -7,8 +7,8 @@ if (global.playerinvincible == false){
 	}
 	else{
 		alarm[0] = global.playerinvitime;
-		alarm[3] = global.playertthr;
 		global.playerinvincible = true;
+		alarm[3] = global.playertthr;
 		flashAlpha = 1;
 	}
 }

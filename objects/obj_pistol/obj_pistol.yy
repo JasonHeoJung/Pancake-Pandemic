@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_syrup",
-    "path": "sprites/spr_syrup/spr_syrup.yy",
+    "name": "spr_Pistol",
+    "path": "sprites/spr_Pistol/spr_Pistol.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,25 +20,20 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":25.0,"y":0.0,},
-    {"x":25.0,"y":20.0,},
-    {"x":0.0,"y":20.0,},
-  ],
+  "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_parentpancake","path":"objects/obj_parentpancake/obj_parentpancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Projectiles&Items",
-    "path": "folders/Objects/Projectiles&Items.yy",
+    "name": "Weapons",
+    "path": "folders/Objects/Weapons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bullet",
+  "name": "obj_Pistol",
   "tags": [],
   "resourceType": "GMObject",
 }

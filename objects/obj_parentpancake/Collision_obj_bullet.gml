@@ -1,4 +1,4 @@
-PancakeHp -= global.playerbulletdmg;
+PancakeHp -= global.playerweapon.weapondamage;
 flashAlpha = 1;
 
 
