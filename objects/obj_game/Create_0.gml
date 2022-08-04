@@ -1,4 +1,5 @@
 global.playerhealth = 100;
+global.playermaxhealth = 100;
 global.playerbulletdmg = 1;
 global.playerfirerate = 0;
 global.playerspeed = 5;
@@ -13,7 +14,7 @@ global.wavecount = 1;
 global.enemylist = [obj_normalPancake];
 global.enemydropcount = 3;
 global.enemydmg = 1;
-
+global.poweruplist = [obj_DmgUp, obj_HealthUp, obj_FireRateUp, obj_InvinTime, obj_Regenrate, obj_SpeedUp, obj_SpeedUp];
  
 
 
