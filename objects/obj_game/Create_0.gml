@@ -15,6 +15,7 @@ global.gamePaused = false;
 if (instance_exists(obj_Weapon)){
 	global.playerweapon = obj_Weapon;
 }
+
 global.enemyhealth = 1;
 global.enemyspeed = 1;
 global.wavecount = 1;

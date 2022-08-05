@@ -22,10 +22,5 @@ if (global.gamePaused)
 				room_goto(rm_title_screen);
 			}break;
 		}
-		
-		
 	}
-	
-	
-	
 }

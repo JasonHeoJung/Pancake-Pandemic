@@ -12,7 +12,7 @@ if (flashAlpha > 0){
 }
 
 //hp for debugging
-draw_text(x,y,global.playerhealth);
+//draw_text(x,y,global.playerhealth);
 //syrupcount for debugging
 draw_text(x,y+20,global.syrupcount);
 
