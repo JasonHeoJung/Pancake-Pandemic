@@ -7,6 +7,8 @@ global.playerinvincible = false;
 global.playerinvitime = 25;
 global.playerhealthregen = 1;
 global.playertthr = 100;
+global.syrupcapacity = 100;
+global.syrupcount = 100;
 global.buttercount = 0;
 if (instance_exists(obj_Weapon)){
 	global.playerweapon = obj_Weapon;
