@@ -10,6 +10,8 @@ global.playertthr = 100;
 global.syrupcapacity = 100;
 global.syrupcount = 100;
 global.buttercount = 0;
+global.gamePaused = false;
+
 if (instance_exists(obj_Weapon)){
 	global.playerweapon = obj_Weapon;
 }

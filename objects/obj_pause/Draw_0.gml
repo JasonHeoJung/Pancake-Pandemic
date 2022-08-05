@@ -1,4 +1,4 @@
-if (state = paused){
+if (global.gamePaused){
 	draw_surface(surface, 0, 0);
 	draw_set_color(c_black);
 	draw_set_alpha(0.75);
@@ -9,9 +9,9 @@ if (state = paused){
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	
-	draw_text(room_width * 0.5, room_height * 0.5, "...Game Paused...")
+	draw_text(room_width * 0.5, room_height * 0.5 - 100, "...Game Paused...")
 	
-	/*for (var i = 0; i < array_length(pauseOption); i++)
+	for (var i = 0; i < array_length(pauseOption); i++)
 	{
 		var _print = "";
 		if (i == pauseOptionSelected)
@@ -23,7 +23,7 @@ if (state = paused){
 			_print += pauseOption[i];
 			draw_set_alpha(0.7);
 		}
-		draw_text(room_width * 0.5, room_height * 0.5 + 18 + (i * 12), _print);
+		draw_text(room_width * 0.5, room_height * 0.5 + 70 + (i * 70), _print);
 		draw_set_alpha(1);
-	}*/
+	}
 }
