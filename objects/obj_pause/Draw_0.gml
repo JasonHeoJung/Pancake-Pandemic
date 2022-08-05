@@ -14,16 +14,18 @@ if (global.gamePaused){
 	for (var i = 0; i < array_length(pauseOption); i++)
 	{
 		var _print = "";
+		var _c = c_white;
 		if (i == pauseOptionSelected)
 		{
 			_print += "> " + pauseOption[i] + " <";
+			_c = c_yellow
 		}
 		else
 		{
 			_print += pauseOption[i];
 			draw_set_alpha(0.7);
 		}
-		draw_text(room_width * 0.5, room_height * 0.5 + 70 + (i * 70), _print);
+		draw_text_color(room_width * 0.5, room_height * 0.5 + 70 + (i * 70),_print,_c,_c,_c,_c, 1);
 		draw_set_alpha(1);
 	}
 }

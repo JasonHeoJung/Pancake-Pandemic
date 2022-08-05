@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menu System",
-    "path": "folders/Menu System.yy",
+    "name": "Main Game Objects",
+    "path": "folders/Objects/Main Game Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_title_menu",
