@@ -12,7 +12,9 @@ else{
 x = obj_player.x + lengthdir_x(70,angle);
 y = obj_player.y + lengthdir_y(70,angle);
 
-
+if (global.syrupcount < self.bulletcost){
+	alarm[0] = 3;
+}
 
 
 

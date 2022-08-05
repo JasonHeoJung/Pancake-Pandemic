@@ -11,8 +11,10 @@ if (flashAlpha > 0){
 	shader_reset();
 }
 
-//hp
+//hp for debugging
 draw_text(x,y,global.playerhealth);
+//syrupcount for debugging
+draw_text(x,y+20,global.syrupcount);
 
 
 

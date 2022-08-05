@@ -11,7 +11,7 @@ if (mouse_check_button(mb_left) and alarm[0] == -1){
 	for (var i = 0; i < 5; i++)
 	{
 		var bullet = instance_create_layer(x,y,"Instances", obj_bullet);
-		global.syrupcount -= self.bulletcost;
+		global.syrupcount -= self.pelletcost;
 		bulletangle -= anglebetweenpellets 
 		bullet.direction = bulletangle;
 		bullet.image_angle = bullet.direction;	
