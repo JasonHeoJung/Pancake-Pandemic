@@ -1,4 +1,4 @@
-self.firerate = 50 * global.playerfirerate;
+self.firerate = 40 * global.playerfirerate;
 self.bulletdistance = 500;
 self.weapondamage = 10 * global.playerbulletdmg;
 self.bulletfric = 0.05;

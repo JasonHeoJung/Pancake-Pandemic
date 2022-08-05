@@ -8,7 +8,9 @@ global.playerinvitime = 25;
 global.playerhealthregen = 1;
 global.playertthr = 100;
 global.buttercount = 0;
-global.playerweapon = obj_Rifle;
+if (instance_exists(obj_Weapon)){
+	global.playerweapon = obj_Weapon;
+}
 global.enemyhealth = 1;
 global.enemyspeed = 1;
 global.wavecount = 1;
