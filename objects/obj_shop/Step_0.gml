@@ -3,6 +3,10 @@ if (shop_opened)
 {
 	keyUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 	keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
+	if (keyUp || keyDown)
+	{
+		msg = ""
+	}
 	weaponsSelect += (keyDown - keyUp);
 	if (weaponsSelect >= array_length(weapons)) weaponsSelect = 0;
 	if (weaponsSelect < 0) weaponsSelect = array_length(weapons) -1;
@@ -12,15 +16,76 @@ if (shop_opened)
 	{
 		switch (weaponsSelect)
 		{
-			case 0: //Continue
+			//Pistol
+			case 0: 
 			{
-				instance_destroy(obj_Weapon)
-				instance_create_layer(0,0, "Instances", obj_Pistol)
+				if (global.buttercount < 10)
+				{
+					msg = "Not Enough Butter";
+					break;
+				}
+				if (instance_exists(obj_Pistol))
+				{
+					msg = "Already Obtained";
+					break;
+				}
+				instance_destroy(obj_Weapon);
+				global.buttercount -= 10;
+				instance_create_layer(0,0, "Instances", obj_Pistol);
 			}break;
+			
+			//Shotgun
 			case 1:
 			{
-				instance_destroy(obj_Weapon)
-				instance_create_layer(0,0, "Instances", obj_Shotgun)
+				if (global.buttercount < 50)
+				{
+					msg = "Not Enough Butter";
+					break;
+				}
+				if (instance_exists(obj_Shotgun))
+				{
+					msg = "Already Obtained";
+					break;
+				}
+				instance_destroy(obj_Weapon);
+				global.buttercount -= 50;
+				instance_create_layer(0,0, "Instances", obj_Shotgun);
+			}break;
+			
+			//Rifle
+			case 2:
+			{
+				if (global.buttercount < 100)
+				{
+					msg = "Not Enough Butter";
+					break;
+				}
+				if (instance_exists(obj_Rifle))
+				{
+					msg = "Already Obtained";
+					break;
+				}
+				instance_destroy(obj_Weapon);
+				global.buttercount -= 100;
+				instance_create_layer(0,0, "Instances", obj_Rifle);
+			}break;
+			
+			//Sniper
+			case 3:
+			{
+				if (global.buttercount < 250)
+				{
+					msg = "Not Enough Butter";
+					break;
+				}
+				if (instance_exists(obj_Sniper))
+				{
+					msg = "Already Obtained";
+					break;
+				}
+				instance_destroy(obj_Weapon);
+				global.buttercount -= 250;
+				instance_create_layer(0,0, "Instances", obj_Sniper);
 			}break;
 		}
 	}
