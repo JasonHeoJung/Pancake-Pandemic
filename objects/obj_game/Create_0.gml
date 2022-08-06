@@ -11,7 +11,7 @@ global.syrupcapacity = 100;
 global.syrupcount = 100;
 global.buttercount = 0;
 global.gamePaused = false;
-instance_create_layer(0,0,"Instances",obj_Pistol);
+instance_create_layer(0,0,"Instances",obj_Shotgun);
 if (instance_exists(obj_Weapon)){
 	global.playerweapon = obj_Weapon;
 }
@@ -23,6 +23,7 @@ global.enemylist = [obj_normalPancake];
 global.enemydropcount = 3;
 global.enemydmg = 1;
 global.poweruplist = [obj_DmgUp, obj_HealthUp, obj_FireRateUp, obj_InvinTime, obj_Regenrate, obj_SpeedUp, obj_TTRegen];
+global.canstartwave = false;
 
 window_set_cursor(cr_none);
 cursor_sprite = spr_cursor;
