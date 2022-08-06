@@ -1,0 +1,3 @@
+setup = false;
+
+instance_activate_object(obj_pause);

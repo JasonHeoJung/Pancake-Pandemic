@@ -1,18 +1,15 @@
-width = 64;
-height = 104;
+textbox_width = 9;
+textbox_height = 3;
+border = 7;
+line_sep = 50;
+line_width = textbox_width - border*2;
 
-op_border = 8;
-op_space = 16;
+// Text
+text[0] = "Movement: Up, Down, Left, Right = WASD";
+text[1] = "Shoot: Left Click";
+text[2] = "Open Shop: E";
+text[3] = "Press Esc to Close";
+text_legnth[0] = string_length(text[0]);
 
-pos = 0;
-
-option[0, 0] = "Start Game"
-option[0, 1] = "Settings"
-option[0, 2] = "Quit Game"
-
-option[1, 0] = "Audio"
-option[1, 1] = "Controls"
-option[1, 2] = "Back"
-
-op_length = 0;
-menu_level = 0;
+setup = true;
+instance_deactivate_object(obj_pause);
