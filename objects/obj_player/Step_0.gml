@@ -1,12 +1,10 @@
 if (knockback == false){
 	//move player in direction of key pressed
 	if (keyboard_check(vk_left) or keyboard_check(ord("A"))){ //and not(keyboard_check(vk_right) or keyboard_check(ord("D")))) {
-		image_xscale = -1;
 		hspeed = -global.playerspeed;
  	}
 
 	if (keyboard_check(vk_right) or keyboard_check(ord("D"))){ //and not(keyboard_check(vk_left) or keyboard_check(ord("A")))) {
-		image_xscale = 1;
 		hspeed = global.playerspeed;	
 	}
 
@@ -48,3 +46,12 @@ if (global.playerhealth <= 0){
 	room_restart();
 	room_goto(rm_gameover);
 } 
+
+var _dir = point_direction(x,y,mouse_x,mouse_y);
+
+if (_dir <= 90 or _dir >= 270){ 
+	image_xscale = 1;
+}
+else{
+	image_xscale = -1;
+}
