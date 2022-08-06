@@ -83,6 +83,7 @@
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":0,},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},"order":4,},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":0,},
+    {"id":{"name":"spr_syrupbar","path":"sprites/spr_syrupbar/spr_syrupbar.yy",},"order":4,},
     {"id":{"name":"spr_syrup","path":"sprites/spr_syrup/spr_syrup.yy",},"order":1,},
     {"id":{"name":"story2","path":"sprites/story2/story2.yy",},"order":0,},
     {"id":{"name":"story4","path":"sprites/story4/story4.yy",},"order":3,},

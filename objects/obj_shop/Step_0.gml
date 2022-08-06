@@ -16,26 +16,8 @@ if (shop_opened)
 	{
 		switch (weaponsSelect)
 		{
-			//Pistol
-			case 0: 
-			{
-				if (global.buttercount < 10)
-				{
-					msg = "Not Enough Butter";
-					break;
-				}
-				if (instance_exists(obj_Pistol))
-				{
-					msg = "Already Obtained";
-					break;
-				}
-				instance_destroy(obj_Weapon);
-				global.buttercount -= 10;
-				instance_create_layer(0,0, "Instances", obj_Pistol);
-			}break;
-			
 			//Shotgun
-			case 1:
+			case 0:
 			{
 				if (global.buttercount < 50)
 				{
@@ -53,7 +35,7 @@ if (shop_opened)
 			}break;
 			
 			//Rifle
-			case 2:
+			case 1:
 			{
 				if (global.buttercount < 100)
 				{
@@ -71,7 +53,7 @@ if (shop_opened)
 			}break;
 			
 			//Sniper
-			case 3:
+			case 2:
 			{
 				if (global.buttercount < 250)
 				{
