@@ -6,7 +6,7 @@
 target = obj_player;
 
 if (point_distance(x,y, target.x,target.y) >= 400){
-	move_towards_point(target.x, target.y,3 * global.enemyspeed);
+	move_towards_point(target.x, target.y, self.speed);
 }
 else
 {

@@ -1,4 +1,4 @@
-if (global.playerinvincible == false){
+ if (global.playerinvincible == false){
 	alarm[3] = -1;
 	var prevh = global.playerhealth;
 	global.playerhealth -= obj_parentpancake.damage;

@@ -1,6 +1,6 @@
 target = obj_player;
 
-move_towards_point(target.x, target.y, 3 * global.enemyspeed);
+move_towards_point(target.x, target.y, self.speed);
 	 
 //on hit flash
 if (flashAlpha > 0){
