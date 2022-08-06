@@ -1,4 +1,5 @@
-xpos = 640;
+/*xpos = 640;
+ypos = 640;
 a = 1;
 fadeout = 0;
 
