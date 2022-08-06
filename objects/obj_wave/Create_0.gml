@@ -1,3 +1,4 @@
+randomise();
 enemies = global.wavecount * 3 + 5;
 global.syrupcount = global.syrupcapacity;
 
@@ -10,3 +11,5 @@ if (global.wavecount == 4){
 }
 
 alarm[0] = 50;
+
+
