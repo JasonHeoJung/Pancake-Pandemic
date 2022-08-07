@@ -21,7 +21,7 @@
     {"id":{"name":"obj_Pillar","path":"objects/obj_Pillar/obj_Pillar.yy",},"order":5,},
     {"id":{"name":"spr_Sniper","path":"sprites/spr_Sniper/spr_Sniper.yy",},"order":4,},
     {"id":{"name":"obj_TallPancake","path":"objects/obj_TallPancake/obj_TallPancake.yy",},"order":2,},
-    {"id":{"name":"spr_GunPowderPancake","path":"sprites/spr_GunPowderPancake/spr_GunPowderPancake.yy",},"order":5,},
+    {"id":{"name":"spr_ChocolatePancake","path":"sprites/spr_ChocolatePancake/spr_ChocolatePancake.yy",},"order":5,},
     {"id":{"name":"spr_MenuBackground","path":"sprites/spr_MenuBackground/spr_MenuBackground.yy",},"order":0,},
     {"id":{"name":"sh_Flash","path":"shaders/sh_Flash/sh_Flash.yy",},"order":0,},
     {"id":{"name":"obj_GameOver","path":"objects/obj_GameOver/obj_GameOver.yy",},"order":4,},
@@ -157,7 +157,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.0.23",
+    "IDEVersion": "2022.6.1.26",
   },
   "resourceVersion": "1.5",
   "name": "Pancake Pandemic",

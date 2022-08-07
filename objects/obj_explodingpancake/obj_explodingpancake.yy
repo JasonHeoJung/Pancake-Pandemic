@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_GunPowderPancake",
-    "path": "sprites/spr_GunPowderPancake/spr_GunPowderPancake.yy",
+    "name": "spr_ChocolatePancake",
+    "path": "sprites/spr_ChocolatePancake/spr_ChocolatePancake.yy",
   },
   "solid": false,
   "visible": true,

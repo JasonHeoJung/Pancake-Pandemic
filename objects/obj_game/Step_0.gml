@@ -1,4 +1,4 @@
-if (instance_exists(obj_Wave)){
+ if (instance_exists(obj_Wave)){
 	instance_deactivate_object(obj_shop);
 }
 else{
