@@ -1,3 +1,2 @@
-// Inherit the parent event
+global.playermaxhealth += 20;
 event_inherited();
-global.playermaxhealth += 19;
