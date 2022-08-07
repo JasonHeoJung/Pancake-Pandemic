@@ -47,6 +47,7 @@ if (global.playerhealth <= 0){
 	room_goto(rm_gameover);
 } 
 
+//direction character is facing
 var _dir = point_direction(x,y,mouse_x,mouse_y);
 
 if (_dir <= 90 or _dir >= 270){ 
@@ -55,3 +56,4 @@ if (_dir <= 90 or _dir >= 270){
 else{
 	image_xscale = -1;
 }
+
