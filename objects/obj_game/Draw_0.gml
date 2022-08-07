@@ -60,7 +60,7 @@ if (position_meeting(mouse_x,mouse_y,obj_SpeedUp)){
 
 
 //mouse over syrupcapacity powerup
-if (position_meeting(mouse_x,mouse_y,obj_SpeedUp)){
+if (position_meeting(mouse_x,mouse_y,obj_SyrupCapacity)){
 	if (global.syrupcapacity != 200){
 		draw_text_transformed(mouse_x, mouse_y-60,"Increases maximum syrup capacity",3,3, 0);
 	}
@@ -71,7 +71,7 @@ if (position_meeting(mouse_x,mouse_y,obj_SpeedUp)){
  
 
 //mouse TTregen 
-if (position_meeting(mouse_x,mouse_y,obj_SpeedUp)){
+if (position_meeting(mouse_x,mouse_y,obj_TTRegen)){
 	if (global.playertthr != 15){
 		draw_text_transformed(mouse_x, mouse_y-60,"Lowers Time till health regeneration kicks in",3,3, 0);
 	}
