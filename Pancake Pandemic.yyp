@@ -58,6 +58,7 @@
     {"id":{"name":"rm_Story4","path":"rooms/rm_Story4/rm_Story4.yy",},"order":6,},
     {"id":{"name":"obj_story2","path":"objects/obj_story2/obj_story2.yy",},"order":1,},
     {"id":{"name":"rm_Story1","path":"rooms/rm_Story1/rm_Story1.yy",},"order":2,},
+    {"id":{"name":"obj_SyrupCapacity","path":"objects/obj_SyrupCapacity/obj_SyrupCapacity.yy",},"order":9,},
     {"id":{"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},"order":0,},
     {"id":{"name":"rm_Story5","path":"rooms/rm_Story5/rm_Story5.yy",},"order":7,},
     {"id":{"name":"obj_DmgUp","path":"objects/obj_DmgUp/obj_DmgUp.yy",},"order":2,},
@@ -77,6 +78,7 @@
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":4,},
     {"id":{"name":"spr_healthbar_border","path":"sprites/spr_healthbar_border/spr_healthbar_border.yy",},"order":1,},
     {"id":{"name":"obj_PowerUp","path":"objects/obj_PowerUp/obj_PowerUp.yy",},"order":0,},
+    {"id":{"name":"spr_pu_SyrupCapacity","path":"sprites/spr_pu_SyrupCapacity/spr_pu_SyrupCapacity.yy",},"order":9,},
     {"id":{"name":"obj_normalPancake","path":"objects/obj_normalPancake/obj_normalPancake.yy",},"order":1,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":3,},
     {"id":{"name":"spr_PlayerMoving","path":"sprites/spr_PlayerMoving/spr_PlayerMoving.yy",},"order":1,},
@@ -129,6 +131,7 @@
     {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_Story5","path":"rooms/rm_Story5/rm_Story5.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
