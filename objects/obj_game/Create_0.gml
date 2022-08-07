@@ -18,9 +18,9 @@ instance_create_layer(0,0,"Instances",obj_Sniper);
 instance_deactivate_object(obj_Weapon);
 global.obtainedweaponlist = [obj_Pistol];
 equipped = 0;
-if (instance_exists(obj_Weapon)){
-	global.playerweapon = obj_Weapon;
-}
+instance_activate_object(obj_Pistol);
+global.playerweapon = global.obtainedweaponlist[equipped];
+
 
 global.enemyhealth = 1;
 global.enemyspeed = 1;
