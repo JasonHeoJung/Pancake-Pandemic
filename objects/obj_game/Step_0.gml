@@ -1,4 +1,6 @@
- if (instance_exists(obj_Wave)){
+instance_activate_object(obj_tutorial_dialogue);
+
+if (instance_exists(obj_Wave)){
 	instance_deactivate_object(obj_shop);
 }
 else{
@@ -18,7 +20,6 @@ if (global.canstartwave == true){
 		global.wavecount += 1;
 		instance_create_layer(0,0,"Instances",obj_Wave);
 	}
-	
 }
 
 
