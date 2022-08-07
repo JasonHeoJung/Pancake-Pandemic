@@ -24,15 +24,25 @@ if (global.shopOpened)
 					msg = "Not Enough Butter";
 					break;
 				}
-				if (instance_exists(obj_Shotgun))
+				var checkexist = false;
+				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
+					if (global.obtainedweaponlist[i] == obj_Shotgun){
+						checkexist = true;
+					}
+				}
+				if (checkexist == true)
 				{
 					msg = "Already Obtained";
 					break;
 				}
-				instance_destroy(obj_Weapon);
-				global.buttercount -= 50;
-				instance_create_layer(0,0, "Instances", obj_Shotgun);
-				msg = "Purchased";
+				else{
+					instance_deactivate_object(obj_Weapon);
+					global.buttercount -= 50;
+					array_push(global.obtainedweaponlist,obj_Shotgun);
+					instance_deactivate_object(obj_Weapon);
+					instance_activate_object(obj_Shotgun);
+					msg = "Purchased";
+				}
 			}break;
 			
 			//Rifle
@@ -43,15 +53,25 @@ if (global.shopOpened)
 					msg = "Not Enough Butter";
 					break;
 				}
-				if (instance_exists(obj_Rifle))
+				var checkexist = false;
+				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
+					if (global.obtainedweaponlist[i] == obj_Rifle){
+						checkexist = true;
+					}
+				}
+				if (checkexist == true)
 				{
 					msg = "Already Obtained";
 					break;
 				}
-				instance_destroy(obj_Weapon);
-				global.buttercount -= 100;
-				instance_create_layer(0,0, "Instances", obj_Rifle);
-				msg = "Purchased";
+				else{
+					instance_deactivate_object(obj_Weapon);
+					global.buttercount -= 100;
+					array_push(global.obtainedweaponlist,obj_Rifle);
+					instance_deactivate_object(obj_Weapon);
+					instance_activate_object(obj_Rifle);
+					msg = "Purchased";
+				}
 			}break;
 			
 			//Sniper
@@ -62,15 +82,25 @@ if (global.shopOpened)
 					msg = "Not Enough Butter";
 					break;
 				}
-				if (instance_exists(obj_Sniper))
+				var checkexist = false;
+				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
+					if (global.obtainedweaponlist[i] == obj_Sniper){
+						checkexist = true;
+					}
+				}
+				if (checkexist == true)
 				{
 					msg = "Already Obtained";
 					break;
 				}
-				instance_destroy(obj_Weapon);
-				global.buttercount -= 250;
-				instance_create_layer(0,0, "Instances", obj_Sniper);
-				msg = "Purchased";
+				else{
+					instance_deactivate_object(obj_Weapon);
+					global.buttercount -= 250;
+					array_push(global.obtainedweaponlist,obj_Sniper);
+					instance_deactivate_object(obj_Weapon);
+					instance_activate_object(obj_Sniper);
+					msg = "Purchased";
+				}
 			}break;
 		}
 	}

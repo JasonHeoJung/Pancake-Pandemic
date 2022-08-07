@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_obstacle",
+    "path": "objects/obj_obstacle/obj_obstacle.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
