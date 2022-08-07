@@ -1,5 +1,4 @@
-shop_opened = false;
-stop = global.playerspeed;
+savedspeed = global.playerspeed;
 surface = surface_create(room_width, room_height);
 
 weapons = ["Shotgun","Rifle", "Sniper"];

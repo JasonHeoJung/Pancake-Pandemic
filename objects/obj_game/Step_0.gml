@@ -1,10 +1,10 @@
 instance_activate_object(obj_tutorial_dialogue);
 
 if (instance_exists(obj_Wave)){
-	instance_deactivate_object(obj_shop);
+	//instance_deactivate_object(obj_shop);
 }
 else{
-	instance_activate_object(obj_shop);
+	//instance_activate_object(obj_shop);
 }
 
 if (instance_exists(obj_PowerUp) or instance_exists(obj_Wave)){

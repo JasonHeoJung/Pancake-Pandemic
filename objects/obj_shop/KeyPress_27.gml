@@ -1,6 +1,7 @@
-if (shop_opened)
+if (global.shopOpened)
 {
-	shop_opened = false;
-	global.playerspeed = stop;
+	global.shopOpened = false;
+	global.playerspeed = savedspeed;
+	instance_activate_object(obj_Wave);
 	instance_activate_object(obj_pause);
 }

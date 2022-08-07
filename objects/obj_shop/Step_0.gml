@@ -1,5 +1,5 @@
 
-if (shop_opened)
+if (global.shopOpened)
 {
 	keyUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 	keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
@@ -32,6 +32,7 @@ if (shop_opened)
 				instance_destroy(obj_Weapon);
 				global.buttercount -= 50;
 				instance_create_layer(0,0, "Instances", obj_Shotgun);
+				msg = "Purchased";
 			}break;
 			
 			//Rifle
@@ -50,6 +51,7 @@ if (shop_opened)
 				instance_destroy(obj_Weapon);
 				global.buttercount -= 100;
 				instance_create_layer(0,0, "Instances", obj_Rifle);
+				msg = "Purchased";
 			}break;
 			
 			//Sniper
@@ -68,6 +70,7 @@ if (shop_opened)
 				instance_destroy(obj_Weapon);
 				global.buttercount -= 250;
 				instance_create_layer(0,0, "Instances", obj_Sniper);
+				msg = "Purchased";
 			}break;
 		}
 	}
