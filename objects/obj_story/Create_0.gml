@@ -1,5 +1,3 @@
-/*xpos = 640;
-ypos = 640;
 a = 1;
 fadeout = 0;
 
@@ -11,6 +9,7 @@ next = 0;
 
 holdspace = 0;
 
-texts[0] = "Line 1";
-texts[1] = "Line 2";
-texts[2] = "Line 3";
+texts[0] = "The year was 2030 when a newly discovered virus emerged";
+texts[1] = "Nicknamed P-Cake30";
+texts[2] = "It was like a scene out of any zombie apocalypse movie… ";
+texts[3] = ""

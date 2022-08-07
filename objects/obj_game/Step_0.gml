@@ -1,4 +1,6 @@
- if (instance_exists(obj_Wave)){
+instance_activate_object(obj_tutorial_dialogue);
+
+if (instance_exists(obj_Wave)){
 	instance_deactivate_object(obj_shop);
 }
 else{
