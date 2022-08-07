@@ -16,12 +16,10 @@ instance_create_layer(0,0,"Instances",obj_Shotgun);
 instance_create_layer(0,0,"Instances",obj_Rifle);
 instance_create_layer(0,0,"Instances",obj_Sniper);
 instance_deactivate_object(obj_Weapon);
-global.obtainedweaponlist = [obj_Pistol];
+global.obtainedweaponlist = [obj_Pistol,obj_Shotgun,obj_Rifle];
 equipped = 0;
 instance_activate_object(obj_Pistol);
 global.playerweapon = global.obtainedweaponlist[equipped];
-
-
 global.enemyhealth = 1;
 global.enemyspeed = 1;
 global.wavecount = 1;
