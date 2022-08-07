@@ -57,3 +57,11 @@ else{
 	image_xscale = -1;
 }
 
+if (alarm[0] = -1){
+	global.playerinvincible = false;
+}
+
+if (global.playerhealth < global.playermaxhealth and alarm[3] = -1){
+	alarm[3] = global.playertthr;
+}
+

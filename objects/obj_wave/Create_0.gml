@@ -1,5 +1,5 @@
 randomise();
-enemies = 1;//global.wavecount * 3 + 5;
+enemies = global.wavecount * 3 + 5;
 global.syrupcount = global.syrupcapacity;
 
 if (global.wavecount == 2){

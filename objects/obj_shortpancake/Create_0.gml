@@ -1,6 +1,6 @@
-baseHp = 2;
+baseHp = 5;
 basedmg = 3;
-basespeed = 6
+basespeed = 6;
 
 // Inherit the parent event
 event_inherited();

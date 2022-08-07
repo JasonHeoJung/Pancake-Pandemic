@@ -3,8 +3,8 @@
 	var prevh = global.playerhealth;
 	global.playerhealth -= obj_parentpancake.damage;
 	if (global.playerhealth < prevh){
-		alarm[0] = global.playerinvitime;
 		global.playerinvincible = true;
+		alarm[0] = global.playerinvitime;
 		alarm[3] = global.playertthr;
 		flashAlpha = 1;
 	}

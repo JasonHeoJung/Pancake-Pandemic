@@ -11,7 +11,7 @@ global.syrupcapacity = 100;
 global.syrupcount = 100;
 global.buttercount = 0;
 global.gamePaused = false;
-//instance_create_layer(0,0,"Instances",obj_Pistol);
+instance_create_layer(0,0,"Instances",obj_Pistol);
 if (instance_exists(obj_Weapon)){
 	global.playerweapon = obj_Weapon;
 }
