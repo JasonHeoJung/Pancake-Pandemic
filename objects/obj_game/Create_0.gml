@@ -12,6 +12,12 @@ global.syrupcount = 100;
 global.buttercount = 0;
 global.gamePaused = false;
 instance_create_layer(0,0,"Instances",obj_Pistol);
+instance_create_layer(0,0,"Instances",obj_Shotgun);
+instance_create_layer(0,0,"Instances",obj_Rifle);
+instance_create_layer(0,0,"Instances",obj_Sniper);
+instance_deactivate_object(obj_Weapon);
+global.obtainedweaponlist = [obj_Pistol];
+equipped = 0;
 if (instance_exists(obj_Weapon)){
 	global.playerweapon = obj_Weapon;
 }
