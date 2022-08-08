@@ -4,9 +4,11 @@ up_key = keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"));
 down_key = keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S"));
 accept_key = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter);
 
+if (up_key || down_key){audio_play_sound(snd_menuOptions, 1000, false);}
+if (accept_key){audio_play_sound(snd_select, 1000, false);}
+
 //Store number of options in current menu
 op_length = array_length(option[menu_level])
-
 //Select Options in Menu
 pos += down_key - up_key;
 if pos >= op_length {pos = 0};
@@ -30,17 +32,18 @@ if accept_key {
 		//Credits
 		case 1:
 			switch(pos){
-				//Audio
 				case 0:
 					break;
-				//controls
 				case 1:
 					break;
-				//controls
 				case 2:
 					break;
-				//back
 				case 3:
+					break;
+				case 4:
+					break;
+				//back
+				case 5:
 					menu_level = 0;
 					break;
 			}
@@ -49,4 +52,10 @@ if accept_key {
 		
 	//correct option length
 	op_length = array_length(option[menu_level])
+}
+
+// Off Sound
+if (audio_sound_get_gain(snd_MCombat) <= 0)
+{
+	audio_stop_sound(snd_MCombat);
 }
