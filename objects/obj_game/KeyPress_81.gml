@@ -12,6 +12,10 @@ if (array_length(global.obtainedweaponlist) != 1){
 		global.playerweapon = global.obtainedweaponlist[equipped];
 	}
 }
+
+if (array_length(global.obtainedweaponlist) == 1){
+	instance_activate_object(global.obtainedweaponlist[equipped]);
+}
 	
 
 

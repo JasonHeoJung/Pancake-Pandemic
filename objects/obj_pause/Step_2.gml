@@ -15,6 +15,7 @@ if (global.gamePaused)
 			{
 				global.gamePaused = false;
 				instance_activate_all();
+				instance_deactivate_object(obj_Weapon);
 			}break;
 			case 1:
 			{
