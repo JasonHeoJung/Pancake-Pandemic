@@ -22,6 +22,8 @@ if (global.canstartwave == true){
 	}	
 }
 
+global.playerweapon = global.obtainedweaponlist[equipped];
+
 
 
 
