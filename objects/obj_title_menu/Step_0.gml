@@ -22,27 +22,10 @@ if accept_key {
 		switch(pos){
 			//Start Game
 			case 0: room_goto_next(); break;
-			//Settings
-			case 1: menu_level = 1 break;
 			//Quit Game
-			case 2: game_end(); break;
+			case 1: game_end(); break;
 		}
-		//settings
-		case 1:
-			switch(pos){
-				//Audio
-				case 0:
-					break;
-				//controls
-				case 1:
-					break;
-				//back
-				case 2:
-					menu_level = 0;
-					break;
-			}
 	}
-		
 	if _sml != menu_level{pos = 0};
 		
 	//correct option length

@@ -127,13 +127,13 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Story1","path":"rooms/rm_Story1/rm_Story1.yy",},},
-    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
-    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
     {"roomId":{"name":"rm_Story2","path":"rooms/rm_Story2/rm_Story2.yy",},},
     {"roomId":{"name":"rm_Story3","path":"rooms/rm_Story3/rm_Story3.yy",},},
     {"roomId":{"name":"rm_Story4","path":"rooms/rm_Story4/rm_Story4.yy",},},
-    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_Story5","path":"rooms/rm_Story5/rm_Story5.yy",},},
+    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_StartRoom","path":"rooms/rm_StartRoom/rm_StartRoom.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "Folders": [
