@@ -67,7 +67,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"28da0dae-ca69-480a-84b3-2e837beb045c","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":85.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2230f54e-49a5-4f35-915c-5e36d953fea0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":90.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2230f54e-49a5-4f35-915c-5e36d953fea0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 8,

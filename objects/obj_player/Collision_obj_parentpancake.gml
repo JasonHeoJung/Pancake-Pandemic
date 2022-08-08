@@ -2,6 +2,10 @@
 	alarm[3] = -1;
 	var prevh = global.playerhealth;
 	global.playerhealth -= obj_parentpancake.damage;
+	if !audio_is_playing(snd_dmg)
+	{
+		audio_play_sound(snd_dmg,1000, false)
+	}
 	if (global.playerhealth < prevh){
 		global.playerinvincible = true;
 		alarm[0] = global.playerinvitime;

@@ -4,6 +4,10 @@ if (global.playerinvincible == false){
 	alarm[3] = global.playertthr;
 	flashAlpha = 1;
 	global.playerinvincible = true;
+	if !audio_is_playing(snd_dmg)
+	{
+		audio_play_sound(snd_dmg,1000, false)
+	}
 }
 
 if (alarm[2] == -1){

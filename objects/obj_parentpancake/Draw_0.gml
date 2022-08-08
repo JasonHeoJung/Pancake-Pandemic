@@ -9,6 +9,3 @@ if (flashAlpha > 0){
 	
 	shader_reset();
 }
-
-//hp
-draw_text(x,y,PancakeHp);
