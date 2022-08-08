@@ -9,7 +9,7 @@ global.playerhealthregen = 1;
 global.playertthr = 100;
 global.syrupcapacity = 100;
 global.syrupcount = 100;
-global.buttercount = 0;
+global.buttercount = 100;
 global.gamePaused = false;
 global.shopOpened = false;
 instance_create_layer(0,0,"Instances",obj_Pistol);

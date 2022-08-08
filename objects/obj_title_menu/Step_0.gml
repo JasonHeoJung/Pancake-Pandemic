@@ -22,9 +22,28 @@ if accept_key {
 		switch(pos){
 			//Start Game
 			case 0: room_goto_next(); break;
+			//Credits
+			case 1: menu_level = 1 break;
 			//Quit Game
-			case 1: game_end(); break;
+			case 2: game_end(); break;
 		}
+		//Credits
+		case 1:
+			switch(pos){
+				//Audio
+				case 0:
+					break;
+				//controls
+				case 1:
+					break;
+				//controls
+				case 2:
+					break;
+				//back
+				case 3:
+					menu_level = 0;
+					break;
+			}
 	}
 	if _sml != menu_level{pos = 0};
 		
