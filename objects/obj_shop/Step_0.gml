@@ -5,6 +5,7 @@ if (global.shopOpened)
 	keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 	if (keyUp || keyDown)
 	{
+		audio_play_sound(snd_menuOptions, 1000, false);
 		msg = ""
 	}
 	weaponsSelect += (keyDown - keyUp);
@@ -14,6 +15,8 @@ if (global.shopOpened)
 	keyActivate = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);
 	if (keyActivate)
 	{
+		//play select Audio
+		audio_play_sound(snd_select, 1000, false);
 		switch (weaponsSelect)
 		{
 			//Shotgun
