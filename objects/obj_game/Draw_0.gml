@@ -1,9 +1,9 @@
 draw_set_font(global.font_main);
 draw_set_halign(fa_middle);
-draw_sprite_ext(spr_textbox, 0, room_width/2 - 97, 100, 2.4, 1.5, 0, c_white, 1)
-draw_text_transformed_color(room_width/2,105,"wave:"+string(global.wavecount),3,3, 0, c_white,c_white,c_white,c_white, 1);
-draw_text_transformed_color(room_width/2,140,"butter:"+string(global.buttercount),3,3, 0, c_white,c_white,c_white,c_white, 1);
-draw_text_transformed_color(room_width/2,175,"enemies left:"+string(instance_number(obj_parentpancake)),3,3, 0, c_white,c_white,c_white,c_white, 1);
+draw_sprite_ext(spr_textbox, 0, room_width/2 - 97, 80, 2.4, 1.8, 0, c_white, 1)
+draw_text_transformed_color(room_width/2, 105,"wave:"+string(global.wavecount),3,3, 0, c_white,c_white,c_white,c_white, 1);
+draw_text_transformed_color(room_width/2, 140,"butter:"+string(global.buttercount),3,3, 0, c_white,c_white,c_white,c_white, 1);
+draw_text_transformed_color(room_width/2, 175,"enemies left:"+string(instance_number(obj_parentpancake)),3,3, 0, c_white,c_white,c_white,c_white, 1);
 
 
 if (global.canstartwave == true){
