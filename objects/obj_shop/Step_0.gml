@@ -15,8 +15,6 @@ if (global.shopOpened)
 	keyActivate = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);
 	if (keyActivate)
 	{
-		//play select Audio
-		audio_play_sound(snd_select, 1000, false);
 		switch (weaponsSelect)
 		{
 			//Shotgun
@@ -45,6 +43,8 @@ if (global.shopOpened)
 					instance_deactivate_object(obj_Weapon);
 					instance_activate_object(obj_Shotgun);
 					msg = "Purchased";
+					//play select Audio
+					audio_play_sound(snd_purchase, 1000, false);
 				}
 			}break;
 			
@@ -74,6 +74,8 @@ if (global.shopOpened)
 					instance_deactivate_object(obj_Weapon);
 					instance_activate_object(obj_Rifle);
 					msg = "Purchased";
+					//play select Audio
+					audio_play_sound(snd_purchase, 1000, false);
 				}
 			}break;
 			
@@ -103,6 +105,8 @@ if (global.shopOpened)
 					instance_deactivate_object(obj_Weapon);
 					instance_activate_object(obj_Sniper);
 					msg = "Purchased";
+					//play select Audio
+					audio_play_sound(snd_purchase, 1000, false);
 				}
 			}break;
 		}
