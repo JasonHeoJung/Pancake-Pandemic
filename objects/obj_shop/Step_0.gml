@@ -125,7 +125,7 @@ if (global.shopOpened)
 					else{
 						instance_activate_object(obj_Rifle);
 						if (obj_Rifle.bulletcost >= 1){
-							obj_Rifle.bulletcost -= 0.5;
+							obj_Rifle.bulletcost -= 1;
 						}
 						obj_Rifle.bulletsize += 0.25;
 						obj_Rifle.bulletdistance += 100;
