@@ -9,7 +9,7 @@ global.playerhealthregen = 1;
 global.playertthr = 100;
 global.syrupcapacity = 100;
 global.syrupcount = 100;
-global.buttercount = 1000;
+global.buttercount = 0;
 global.gamePaused = false;
 global.shopOpened = false;
 instance_create_layer(0,0,"Instances",obj_Pistol);
@@ -29,6 +29,7 @@ global.enemydropcount = 3;
 global.enemydmg = 1;
 global.poweruplist = [obj_DmgUp, obj_HealthUp, obj_FireRateUp, obj_InvinTime, obj_Regenrate, obj_SpeedUp, obj_TTRegen, obj_SyrupCapacity];
 global.canstartwave = false;
+global.score = 0;
 
 window_set_cursor(cr_none);
 cursor_sprite = spr_cursor;

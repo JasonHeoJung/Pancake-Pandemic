@@ -9,5 +9,7 @@ if (global.syrupcount < global.syrupcapacity){
 	}
 }
 
+global.score += 10;
+
 
 
