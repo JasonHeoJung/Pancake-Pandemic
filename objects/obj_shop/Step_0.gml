@@ -30,6 +30,7 @@ if (global.shopOpened)
 					obj_Pistol.bulletsize += 0.2
 					obj_Pistol.bulletfric -= 0.05;
 					global.buttercount -= cost[0];
+					audio_play_sound(snd_purchase, 1000, false);
 					cost[0] += 50;
 					msg = "Upgraded";
 					instance_deactivate_object(obj_Weapon);
@@ -79,6 +80,7 @@ if (global.shopOpened)
 							obj_Shotgun.bulletcost -= 1;
 						}
 						global.buttercount -= cost[1];
+						audio_play_sound(snd_purchase, 1000, false);
 						cost[1] += 100;
 						msg = "Upgraded";
 						break;
@@ -128,6 +130,7 @@ if (global.shopOpened)
 						obj_Rifle.bulletsize += 0.25;
 						obj_Rifle.bulletdistance += 100;
 						global.buttercount -= cost[2];
+						audio_play_sound(snd_purchase, 1000, false);
 						cost[2] += 100;
 						msg = "Upgraded";
 						instance_deactivate_object(obj_Weapon);
@@ -177,6 +180,7 @@ if (global.shopOpened)
 						obj_Sniper.bulletsize += 0.25;
 						obj_Sniper.reps += 1;
 						global.buttercount -= cost[3];
+						audio_play_sound(snd_purchase, 1000, false);
 						cost[3] += 100;
 						msg = "Upgraded";
 						instance_deactivate_object(obj_Weapon);
