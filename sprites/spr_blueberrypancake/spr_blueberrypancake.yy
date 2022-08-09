@@ -10,7 +10,7 @@
   "bbox_left": 39,
   "bbox_right": 92,
   "bbox_top": 40,
-  "bbox_bottom": 93,
+  "bbox_bottom": 99,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,9 +26,11 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"79e211e9-61f8-4537-afb8-3e4ca7922340","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"79e211e9-61f8-4537-afb8-3e4ca7922340","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"LayerId":{"name":"814ef2a0-08ec-48ab-ab58-39f23fb90510","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"79e211e9-61f8-4537-afb8-3e4ca7922340","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"LayerId":{"name":"310f2c17-07fc-4358-8f21-62244f957232","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_BlueberryPancake","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"resourceVersion":"1.0","name":"79e211e9-61f8-4537-afb8-3e4ca7922340","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"8d6d736b-35fd-49fc-bb4b-3cc18c4d965f","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8d6d736b-35fd-49fc-bb4b-3cc18c4d965f","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"LayerId":{"name":"814ef2a0-08ec-48ab-ab58-39f23fb90510","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"8d6d736b-35fd-49fc-bb4b-3cc18c4d965f","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"LayerId":{"name":"310f2c17-07fc-4358-8f21-62244f957232","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_BlueberryPancake","path":"sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",},"resourceVersion":"1.0","name":"8d6d736b-35fd-49fc-bb4b-3cc18c4d965f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -70,6 +72,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"814ef2a0-08ec-48ab-ab58-39f23fb90510","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"310f2c17-07fc-4358-8f21-62244f957232","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
