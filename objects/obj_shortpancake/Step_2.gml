@@ -17,7 +17,3 @@ if (dead == true){
 	speed = 0;
 	self.damage = 0;
 }
-
-
-
-
