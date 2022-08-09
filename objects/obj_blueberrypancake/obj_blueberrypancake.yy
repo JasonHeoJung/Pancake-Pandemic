@@ -6,10 +6,7 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_BlueberryPancake",
-    "path": "sprites/spr_BlueberryPancake/spr_BlueberryPancake.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
     "name": "obj_parentpancake",
