@@ -7,7 +7,7 @@ if (global.shopOpened)
 	draw_set_alpha(1.0);
 	draw_set_color(c_white);
 	
-	draw_sprite_ext(spr_textbox,0, room_width * 0.5 - 120, room_height * 0.5 - 100, 3,3, 0 , c_white, 1);
+	draw_sprite_ext(spr_textbox,0, room_width * 0.5 - 120, room_height * 0.5 - 100, 3,4, 0 , c_white, 1);
 	
 	draw_set_font(global.font_main_big);
 	draw_set_halign(fa_center);

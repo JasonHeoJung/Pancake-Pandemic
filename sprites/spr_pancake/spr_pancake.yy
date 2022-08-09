@@ -10,7 +10,7 @@
   "bbox_left": 38,
   "bbox_right": 92,
   "bbox_top": 40,
-  "bbox_bottom": 93,
+  "bbox_bottom": 100,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,9 +26,11 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"da11da89-7e62-42e5-848d-0e79578162dd","path":"sprites/spr_Pancake/spr_Pancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"da11da89-7e62-42e5-848d-0e79578162dd","path":"sprites/spr_Pancake/spr_Pancake.yy",},"LayerId":{"name":"e3820d6b-4817-43b4-9baa-98d2c5a0f5e0","path":"sprites/spr_Pancake/spr_Pancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"da11da89-7e62-42e5-848d-0e79578162dd","path":"sprites/spr_Pancake/spr_Pancake.yy",},"LayerId":{"name":"587f9617-5511-45b1-ac19-e6ee74e999c3","path":"sprites/spr_Pancake/spr_Pancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_Pancake","path":"sprites/spr_Pancake/spr_Pancake.yy",},"resourceVersion":"1.0","name":"da11da89-7e62-42e5-848d-0e79578162dd","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"92fd5bd2-0025-4e7a-ad63-159301033916","path":"sprites/spr_Pancake/spr_Pancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"92fd5bd2-0025-4e7a-ad63-159301033916","path":"sprites/spr_Pancake/spr_Pancake.yy",},"LayerId":{"name":"e3820d6b-4817-43b4-9baa-98d2c5a0f5e0","path":"sprites/spr_Pancake/spr_Pancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"92fd5bd2-0025-4e7a-ad63-159301033916","path":"sprites/spr_Pancake/spr_Pancake.yy",},"LayerId":{"name":"587f9617-5511-45b1-ac19-e6ee74e999c3","path":"sprites/spr_Pancake/spr_Pancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_Pancake","path":"sprites/spr_Pancake/spr_Pancake.yy",},"resourceVersion":"1.0","name":"92fd5bd2-0025-4e7a-ad63-159301033916","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -70,6 +72,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3820d6b-4817-43b4-9baa-98d2c5a0f5e0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"587f9617-5511-45b1-ac19-e6ee74e999c3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

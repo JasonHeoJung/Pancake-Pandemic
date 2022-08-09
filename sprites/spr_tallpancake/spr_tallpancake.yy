@@ -26,9 +26,11 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"e7acc497-e96f-4f78-ab6b-673196a44fa0","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"e7acc497-e96f-4f78-ab6b-673196a44fa0","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"LayerId":{"name":"a1b9e7db-feb9-45ba-b8ce-7bd4227b763e","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"e7acc497-e96f-4f78-ab6b-673196a44fa0","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"LayerId":{"name":"f1ad6f91-b1d3-403c-b8af-4abf7dd38343","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_TallPancake","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"resourceVersion":"1.0","name":"e7acc497-e96f-4f78-ab6b-673196a44fa0","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"dcd458d3-8ca9-48f5-8819-659f3b357fa8","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"dcd458d3-8ca9-48f5-8819-659f3b357fa8","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"LayerId":{"name":"a1b9e7db-feb9-45ba-b8ce-7bd4227b763e","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"dcd458d3-8ca9-48f5-8819-659f3b357fa8","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"LayerId":{"name":"f1ad6f91-b1d3-403c-b8af-4abf7dd38343","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_TallPancake","path":"sprites/spr_TallPancake/spr_TallPancake.yy",},"resourceVersion":"1.0","name":"dcd458d3-8ca9-48f5-8819-659f3b357fa8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -70,6 +72,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a1b9e7db-feb9-45ba-b8ce-7bd4227b763e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"f1ad6f91-b1d3-403c-b8af-4abf7dd38343","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
