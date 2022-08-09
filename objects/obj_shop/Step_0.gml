@@ -20,14 +20,9 @@ if (global.shopOpened)
 			//pistol
 			case 0:
 			{
-				if (global.buttercount < 10)
-				{
-					msg = "Not Enough Butter";
-					break;
-				}
 				var checkexist = false;
 				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
-					if (global.obtainedweaponlist[i] == obj_Shotgun){
+					if (global.obtainedweaponlist[i] == obj_Pistol){
 						checkexist = true;
 					}
 				}
@@ -35,15 +30,6 @@ if (global.shopOpened)
 				{
 					msg = "Already Obtained";
 					break;
-				}
-				else{
-					instance_deactivate_object(obj_Weapon);
-					global.buttercount -= 10;
-					array_push(global.obtainedweaponlist,obj_Pistol);
-					instance_deactivate_object(obj_Weapon);
-					msg = "Purchased";
-					//play select Audio
-					audio_play_sound(snd_purchase, 1000, false);
 				}
 			}break;
 			//Shotgun
