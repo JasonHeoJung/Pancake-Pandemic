@@ -22,4 +22,3 @@ if (mouse_check_button(mb_left) and alarm[0] == -1){
 }
 
 
- 

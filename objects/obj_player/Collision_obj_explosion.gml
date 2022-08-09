@@ -1,5 +1,5 @@
 if (global.playerinvincible == false){
-	global.playerhealth -= global.enemydmg * 50;	
+	global.playerhealth -= global.enemydmg * 25;	
 	alarm[0] = global.playerinvitime;
 	alarm[3] = global.playertthr;
 	flashAlpha = 1;
