@@ -22,6 +22,12 @@ if (global.canstartwave == true){
 	}	
 }
 
+if (!instance_exists(obj_Wave) and alarm[0] == -1){
+	alarm[0] = 20;
+}
+
+
+
 global.playerweapon = global.obtainedweaponlist[equipped];
 
 

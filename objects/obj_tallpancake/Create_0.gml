@@ -5,4 +5,4 @@ basespeed = 3;
 // Inherit the parent event
 event_inherited();
 
-entityDropList  = [obj_ShortPancake,obj_ShortPancake,obj_ShortPancake];
+entityDropList  = [obj_ShortPancake,obj_ShortPancake];
