@@ -1,12 +1,5 @@
-// Inherit the parent event
-event_inherited();
-
-self.firerate = 50 * global.playerfirerate;
-self.weapondamage = 6 * global.playerbulletdmg;
-
-// Shotgun Bullets
-if (mouse_check_button(mb_left) and alarm[0] == -1){
-	count = self.reps;
+count -= 1;
+if (count > 0){
 	//angle between pellets
 	var anglebetweenpellets = self.pelletspread/self.pelletcount;
 	//inital pellet angle 
@@ -15,7 +8,6 @@ if (mouse_check_button(mb_left) and alarm[0] == -1){
 	for (var i = 0; i < 5; i++)
 	{
 		var bullet = instance_create_layer(x,y,"Instances", obj_bullet);
-		global.syrupcount -= self.pelletcost;
 		bulletangle -= anglebetweenpellets 
 		bullet.direction = bulletangle;
 		bullet.image_angle = bullet.direction;	
@@ -23,7 +15,10 @@ if (mouse_check_button(mb_left) and alarm[0] == -1){
 		audio_sound_gain(snd_Shoot, 0.8, 0);
 	}
 	alarm[0] = self.firerate
-	alarm[1] = 5;
+	alarm[1] = 5;	
 }
+
+
+
 
 

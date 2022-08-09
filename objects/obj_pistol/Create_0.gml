@@ -5,8 +5,7 @@ self.bulletfric = 0.05;
 self.bulletsize = 1;
 self.bulletcost = 0;
 self.price = undefined;
-
-
+self.reps = 1;
 
 
 

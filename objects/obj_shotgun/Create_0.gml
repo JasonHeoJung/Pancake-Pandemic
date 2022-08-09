@@ -8,7 +8,7 @@ self.pelletcost = 0.8;
 self.bulletcost = self.pelletcost * self.pelletcount;
 self.price = undefined;
 self.bulletsize = 0.5;
-
+self.reps = 1;
 
 
 

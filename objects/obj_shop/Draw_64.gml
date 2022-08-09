@@ -22,7 +22,7 @@ if (global.shopOpened)
 		var _c = c_white;
 		if (i == weaponsSelect)
 		{
-			_cost = cost[i] + " Butter";
+			_cost = string(cost[i]) + " Butter";
 			_print += "> " + weapons[i] + " <";
 			_c = c_yellow
 		}

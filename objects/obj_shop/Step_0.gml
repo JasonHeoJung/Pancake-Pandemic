@@ -20,105 +20,168 @@ if (global.shopOpened)
 			//pistol
 			case 0:
 			{
-				var checkexist = false;
-				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
-					if (global.obtainedweaponlist[i] == obj_Pistol){
-						checkexist = true;
-					}
+				if (global.buttercount < cost[0]){
+					msg = "Not Enough Butter";
+					break;	
 				}
-				if (checkexist == true)
-				{
-					msg = "Already Obtained";
+				else{
+					instance_activate_object(obj_Pistol);
+					obj_Pistol.reps += 3;
+					obj_Pistol.bulletsize += 0.2
+					obj_Pistol.bulletfric -= 0.05;
+					global.buttercount -= cost[0];
+					cost[0] += 50;
+					msg = "Upgraded";
+					instance_deactivate_object(obj_Weapon);
 					break;
 				}
 			}break;
 			//Shotgun
 			case 1:
 			{
-				if (global.buttercount < 50)
-				{
-					msg = "Not Enough Butter";
-					break;
-				}
 				var checkexist = false;
 				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
 					if (global.obtainedweaponlist[i] == obj_Shotgun){
 						checkexist = true;
 					}
 				}
-				if (checkexist == true)
-				{
-					msg = "Already Obtained";
+				if (checkexist == false){
+					if (global.buttercount < 50)
+					{
+					msg = "Not Enough Butter";
 					break;
-				}
-				else{
+					}	
+					else{
 					instance_deactivate_object(obj_Weapon);
-					global.buttercount -= 50;
+					global.buttercount -= cost[1];
+					cost[1] = 100;
 					array_push(global.obtainedweaponlist,obj_Shotgun);
 					instance_deactivate_object(obj_Weapon);
 					msg = "Purchased";
 					//play select Audio
 					audio_play_sound(snd_purchase, 1000, false);
+					break;
+					}
 				}
+
+				if (checkexist == true)
+				{
+					if (global.buttercount < cost[1]){
+						msg = "Not Enough Butter";
+						break;	
+					}
+					else{
+						instance_activate_object(obj_Shotgun);
+						obj_Shotgun.bulletdistance += 150;
+						obj_Shotgun.reps += 1;
+						obj_Shotgun.bulletsize *= 1.5; 
+						if (obj_Shotgun.bulletcost >= 1){
+							obj_Shotgun.bulletcost -= 1;
+						}
+						global.buttercount -= cost[1];
+						cost[1] += 100;
+						msg = "Upgraded";
+						break;
+						instance_deactivate_object(obj_Weapon);
+					}
+				}			
 			}break;
 			
 			//Rifle
 			case 2:
 			{
-				if (global.buttercount < 100)
-				{
-					msg = "Not Enough Butter";
-					break;
-				}
 				var checkexist = false;
 				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
 					if (global.obtainedweaponlist[i] == obj_Rifle){
 						checkexist = true;
 					}
 				}
-				if (checkexist == true)
-				{
-					msg = "Already Obtained";
+				if (checkexist == false){
+					if (global.buttercount < cost[2])
+					{
+					msg = "Not Enough Butter";
 					break;
-				}
-				else{
+					}	
+					else{
 					instance_deactivate_object(obj_Weapon);
-					global.buttercount -= 100;
+					global.buttercount -= cost[2];
+					cost[2] = 100;
 					array_push(global.obtainedweaponlist,obj_Rifle);
-					instance_deactivate_object(obj_Weapon);					
+					instance_deactivate_object(obj_Weapon);
 					msg = "Purchased";
 					//play select Audio
 					audio_play_sound(snd_purchase, 1000, false);
+					break;
+					}
 				}
+				if (checkexist == true)
+				{
+					if (global.buttercount < cost[2]){
+						msg = "Not Enough Butter";
+						break;	
+					}
+					else{
+						instance_activate_object(obj_Rifle);
+						if (obj_Rifle.bulletcost >= 1){
+							obj_Rifle.bulletcost -= 1;
+						}
+						obj_Rifle.bulletsize += 0.25;
+						obj_Rifle.bulletdistance += 100;
+						global.buttercount -= cost[2];
+						cost[2] += 100;
+						msg = "Upgraded";
+						instance_deactivate_object(obj_Weapon);
+						break;
+					}
+				}	
 			}break;
 			
 			//Sniper
 			case 3:
 			{
-				if (global.buttercount < 250)
-				{
-					msg = "Not Enough Butter";
-					break;
-				}
 				var checkexist = false;
 				for (var i = 0, len = array_length(global.obtainedweaponlist); i < len; i++){
 					if (global.obtainedweaponlist[i] == obj_Sniper){
 						checkexist = true;
 					}
 				}
-				if (checkexist == true)
-				{
-					msg = "Already Obtained";
+				if (checkexist == false){
+					if (global.buttercount < cost[3])
+					{
+					msg = "Not Enough Butter";
 					break;
-				}
-				else{
+					}	
+					else{
 					instance_deactivate_object(obj_Weapon);
-					global.buttercount -= 250;
+					global.buttercount -= cost[3];
+					cost[3] = 100;
 					array_push(global.obtainedweaponlist,obj_Sniper);
 					instance_deactivate_object(obj_Weapon);
 					msg = "Purchased";
 					//play select Audio
 					audio_play_sound(snd_purchase, 1000, false);
+					break;
+					}
+				}
+				if (checkexist == true)
+				{
+					if (global.buttercount < cost[3]){
+						msg = "Not Enough Butter";
+						break;	
+					}
+					else{
+						instance_activate_object(obj_Sniper);
+						if (obj_Sniper.bulletcost >= 2){
+							obj_Sniper.bulletcost -= 2;
+						}
+						obj_Sniper.bulletsize += 0.25;
+						obj_Sniper.reps += 1;
+						global.buttercount -= cost[3];
+						cost[3] += 100;
+						msg = "Upgraded";
+						instance_deactivate_object(obj_Weapon);
+						break;
+					}
 				}
 			}break;
 		}
