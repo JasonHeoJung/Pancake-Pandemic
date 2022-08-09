@@ -41,7 +41,6 @@ if (global.shopOpened)
 					global.buttercount -= 50;
 					array_push(global.obtainedweaponlist,obj_Shotgun);
 					instance_deactivate_object(obj_Weapon);
-					instance_activate_object(obj_Shotgun);
 					msg = "Purchased";
 					//play select Audio
 					audio_play_sound(snd_purchase, 1000, false);
@@ -71,8 +70,7 @@ if (global.shopOpened)
 					instance_deactivate_object(obj_Weapon);
 					global.buttercount -= 100;
 					array_push(global.obtainedweaponlist,obj_Rifle);
-					instance_deactivate_object(obj_Weapon);
-					instance_activate_object(obj_Rifle);
+					instance_deactivate_object(obj_Weapon);					
 					msg = "Purchased";
 					//play select Audio
 					audio_play_sound(snd_purchase, 1000, false);
@@ -103,7 +101,6 @@ if (global.shopOpened)
 					global.buttercount -= 250;
 					array_push(global.obtainedweaponlist,obj_Sniper);
 					instance_deactivate_object(obj_Weapon);
-					instance_activate_object(obj_Sniper);
 					msg = "Purchased";
 					//play select Audio
 					audio_play_sound(snd_purchase, 1000, false);
