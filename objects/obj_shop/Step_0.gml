@@ -83,8 +83,8 @@ if (global.shopOpened)
 						audio_play_sound(snd_purchase, 1000, false);
 						cost[1] += 100;
 						msg = "Upgraded";
-						break;
 						instance_deactivate_object(obj_Weapon);
+						break;
 					}
 				}			
 			}break;
